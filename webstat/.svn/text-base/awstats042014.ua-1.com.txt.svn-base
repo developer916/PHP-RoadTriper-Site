@@ -1,0 +1,2283 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201404 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ua-1.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2677                
+POS_VISITOR 37225               
+POS_DAY 63172               
+POS_DOMAIN 3718                
+POS_LOGIN 3956                
+POS_ROBOT 4111                
+POS_WORMS 5165                
+POS_EMAILSENDER 5296                
+POS_EMAILRECEIVER 5439                
+POS_SESSION 64155               
+POS_SIDER 64368               
+POS_FILETYPES 5574                
+POS_DOWNLOADS 5937                
+POS_OS 6010                
+POS_BROWSER 6235                
+POS_SCREENSIZE 7684                
+POS_UNKNOWNREFERER 7758                
+POS_UNKNOWNREFERERBROWSER 8427                
+POS_ORIGIN 8760                
+POS_SEREFERRALS 8909                
+POS_PAGEREFS 9077                
+POS_SEARCHWORDS 9578                
+POS_KEYWORDS 11984               
+POS_MISC 2339                
+POS_ERRORS 13926               
+POS_CLUSTER 3812                
+POS_SIDER_404 14086               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20140501000008 6411 1491759 13559116447503
+FirstTime 20140401000550
+LastTime 20140430235952
+LastUpdate 20140501042516 6411 0 6410 0 0
+TotalVisits 1258                
+TotalUnique 582                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 650                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 264 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3394 5507 50438974 127 200 9912909
+1 2688 3139 15255095 201 254 6665100
+2 2579 3886 34528190 399 467 9474650
+3 2408 3132 16463950 143 333 14592234
+4 2298 2449 16404418 137 339 10759459
+5 2206 3603 25643684 153 379 8398536
+6 2284 3294 41402948 192 254 8909713
+7 3417 4367 181275461 372 406 8791285
+8 2518 3414 48199380 238 292 9780344
+9 3231 4486 45153318 255 404 11048208
+10 3828 5496 33212740 157 224 9324435
+11 4997 7564 26284981 186 256 11639203
+12 4208 6380 30887875 118 150 6307602
+13 3489 4955 33280084 180 236 11536057
+14 3346 4227 24787436 133 200 9684908
+15 3654 4563 27893794 121 222 7573878
+16 4109 5979 39473694 143 200 8777791
+17 3887 6508 56964468 165 271 10340029
+18 5219 6824 37423825 156 254 8148387
+19 5485 8694 47338752 153 341 15655204
+20 5125 7703 65190085 126 238 6477979
+21 5476 9259 59880902 145 291 11513494
+22 6508 16770 146662905 154 347 11235313
+23 4597 5488 21129239 108 162 8006063
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 90951 137687 1125176198
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 24
+bot[\s_+:,\.\;\/\\-] 1063 25189601 20140430195835 114
+googlebot 922 16059169 20140430234817 43
+baiduspider 572 91056023 20140430231548 4
+mail\.ru 557 63970573 20140428063749 167
+yandex 445 6830896 20140430214918 57
+spider 357 8476014 20140430232100 42
+[\s_+:,\.\;\/\\-]bot 99 1904850 20140429091134 0
+crawl 58 3321729 20140424131148 2
+sogou 45 832080 20140430205753 14
+unknown 24 7724 20140430223101 24
+powermarks 1 186510 20140403235804 0
+no_user_agent 10 1881455 20140422133910 0
+ia_archiver 4 415109 20140423095742 2
+java\/[0-9] 4 748922 20140427011637 0
+feedfetcher\-google 13 1025781 20140424023242 0
+msnbot 5 54824 20140422203816 3
+surveybot 4 54019 20140423032353 2
+favicon 15 398970 20140424123217 0
+archive\.org_bot 2 596 20140428212341 2
+webfilter 5 80129 20140405045200 2
+wget 6 1123423 20140418194500 0
+netcraft 1 186635 20140411170105 0
+msnbot\-media 2 29718 20140430095900 1
+nutch 8 108116 20140429091005 4
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 14
+css 4407 104510004 0 0
+png 19820 149027768 0 0
+htm 2 14805 0 0
+_paul 1 186633 0 0
+php 87824 71221802 0 0
+html 1702 175612943 0 0
+_smith 1 186696 0 0
+js 15092 383719098 0 0
+jpg 888 28844267 0 0
+_morse 1 186660 0 0
+_sweet 1 186669 0 0
+Unknown 1419 201842309 0 0
+svg 4 747207 0 0
+gif 6525 8889337 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 1
+/robots.txt 483 0 148862
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 16
+blackberry 1
+linuxandroid 2551
+winxp 3402
+winlong 892
+win2000 917
+winvista 51879
+winunknown 116
+win95 3
+win2003 13
+winnt 2
+win98 2
+linux 1440
+win7 66269
+macosx 9651
+win16 1
+Unknown 548
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 80
+safari7.0.3 1231
+msie6.0 1141
+firefox28.0 13571
+chrome32.0.1700.72 46
+firefox26.0 102
+chrome33.0.1750.149 338
+chrome28.0.1500.94 149
+chrome29.0.1547.62 97
+firefox18.0 2
+curl 2
+chrome31.0.1650.63 205
+msie8.0 759
+chrome11.0.696.34 127
+opera7.60 1
+chrome34.0.1847.132 100
+msie7.0 1171
+firefox23.0 111
+chrome5.0.354.0 1
+chrome35.0.1916.69 105
+chrome29.0.1547.66 1
+chrome31.0.1650.59 1408
+safari7.0.2 1
+chrome33.0.1750.152 894
+chrome34.0.1847.131 9792
+lg\- 103
+safari6.0 1
+firefox3.5.2 1
+chrome30.0.1599.69 98
+chrome32.0.1700.107 208
+firefox3.6.23 1
+mozilla 830
+chrome33.0.1750.117 16
+chrome32.0.1700.76 11
+chrome33.0.1750.58 200
+firefox14.0.1 12
+netscape4.0 278
+firefox3.6.3 1
+firefox1.0.3 101
+safari5.1.9 521
+firefox4.2 1
+firefox10.0.2 1
+safari 101
+firefox15.0.1 385
+firefox16.0.1 272
+safari7.0 1085
+chrome31.1.0.0 96
+firefox3.0.7 1
+android 628
+chrome22.0.1229.79 107
+firefox24.0 119
+opera9.80 1295
+safari6.1.2 565
+chrome32.0.1700.102 384
+firefox6.0.2 7
+chrome30.0.1599.13014 8
+chrome20.0.1132.47 1
+chrome34.0.1847.116 83656
+firefox16.0 8
+chrome33.0.1750.154 12665
+msie5.0 1
+chrome33.0.1750.146 96
+msie9.0 287
+opera7.54 1
+chrome30.0.1599.101 277
+firefox27.0 362
+Unknown 46
+chrome10.0.648.127 3
+blackberry 1
+iceweasel 1
+chrome34.0.1847.114 217
+safari6.1.3 103
+chrome27.0.1453.110 1
+msie5.5 3
+chrome13.0.782.215 53
+firefox1.0 1
+firefox22.0 215
+msie10.0 678
+safari5.1 217
+chrome31.0.1650.16 1
+firebird 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 12
+SEOstats_2.1.0 20140426084437
+Pinterest/0.1__http://pinterest.com/ 20140419160931
+visionutils/0.2 20140411183956
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20140423151109
+SWB/V1.4_(HP) 20140401011909
+Mozilla/4.0 20140430160117
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140426084436
+Mozilla/5.0_(compatible;_Ezooms/1.0;_help@moz.com) 20140413153325
+Mozilla/5.0_(compatible;_Google-Proxy;_build=0e0) 20140428162217
+LG/U8138/v1.0 20140429022509
+Opera/9.80_(Android;_Opera_Mini/7.5.35199/34.1903;_U;_ru)_Presto/2.8.119_Version/11.10 20140426222025
+NerdyBot 20140430224802
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+SEOstats_2.1.0 20140426084437
+Pinterest/0.1__http://pinterest.com/ 20140419160931
+visionutils/0.2 20140411183956
+wscheck.com/1.0.0_(_http://wscheck.com/) 20140426084436
+SWB/V1.4_(HP) 20140401011909
+LG/U8138/v1.0 20140429022509
+NerdyBot 20140430224802
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1723 1998
+From1 0 0
+From2 92 94
+From3 22 37
+From4 89114 135558
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 2
+google 88 89
+yandex 4 5
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 11
+http://thefds.net 4 4
+http://go.mail.ru/search 4 4
+http://hotdl.in 4 4
+http://r12files.com 4 4
+http://www.freelancer.com/u/kchg.html 2 2
+http://privhosting.com 1 1
+http://job.ukr.net/vacancy/kontent-menedzher-1683546/ 1 1
+http://selfheal.info 1 1
+http://www.domaintuno.com/d/www.ua-1.com 1 1
+http://yandex.ua/images/search 0 1
+http://firtka.if.ua 0 14
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 17
+%d0%b9%d1%86%d1%83%d0%ba%d0%b5%d0%bd%d0%b3%d1%88%d1%89%d0%b7%d1%85%d1%97%d1%84%d1%96%d0%b2%d0%b0%d0%bf%d1%80%d0%be%d0%bb%d0%b4%d0%b6%d1%94%d1%8f%d1%87%d1%81%d0%bc%d0%b8%d1%82%d1%8c%d0%b1%d1%8e 3
+%d0%be%d1%80%d0%b8%d1%84%d0%bb%d0%b5%d0%b9%d0%bc+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3+%d0%b0%d0%bf%d1%80%d0%b5%d0%bb%d1%8c+%d0%bc%d0%b0%d0%b9+2014 3
+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3+%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4%d1%96%d0%b2 3
+ua-1.com 3
+%d0%be%d0%b1%d0%be%d0%b8+%d0%bd%d0%b0+%d0%ba%d0%be%d0%bc%d0%bf%d1%8c%d1%8e%d1%82%d0%b5%d1%80+%d0%ba%d0%be%d0%bd%d1%8c%d1%8f%d0%ba+%d0%b4%d0%b6%d0%b5%d0%ba+%d0%b4%d1%8d%d0%bd%d0%b8%d1%8d%d0%bb%d1%81+%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d0%b5+%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%80%d1%8b 2
+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd+centro+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 2
+%d1%80%d0%b5%d0%b3%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%86%d0%b8%d1%8f+%d1%81%d0%b0%d0%b9%d1%82%d0%b0 2
+http+%2f%2fstvol.ua%2fcatalog%2fbrend%2fsayga%2f 1
+%d0%bc%d0%b0%d1%81%d1%81%d0%b8%d0%bc%d0%be+%d0%b4%d1%83%d1%82%d1%82%d0%b8+%d0%ba%d0%b8%d0%b5%d0%b2+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 1
+%d0%be%d0%b1%d1%83%d0%b2%d0%bd%d0%be%d0%b9+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd+kari+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 1
+%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8+%d0%bb%d0%be%d1%88%d0%b0%d0%b4%d0%b8%d0%bd%d0%b0%d1%8f+%d1%81%d0%b8%d0%bb%d0%b0 1
+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3+%d1%8d%d0%b9%d0%b2%d0%be%d0%bd+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd+%d0%b2+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 1
+%d0%bc%d0%b8%d0%bd%d0%b8+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3+%d0%b0%d0%b9%d0%b2%d0%be%d0%bd 1
+%d0%b7%d0%be%d0%bb%d0%be%d1%82%d0%be+%d0%b8%d0%b7%d0%b4%d0%b5%d0%bb%d0%b8%d1%8f+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 1
+%d0%ba%d1%83%d1%89%d1%96+%d0%b4%d0%b5%d0%ba%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%96+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 1
+%d0%b1%d0%be%d0%bd%d0%bf%d1%80%d0%b8%d0%ba%d1%81+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+%d0%ba%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3+%d1%82%d0%b0%d0%bf%d0%be%d1%87%d0%b5%d0%ba+%d0%b8%d0%bd%d0%b1%d0%bb%d1%83 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 46
+%d0%ba%d0%b0%d1%82%d0%b0%d0%bb%d0%be%d0%b3 15
+%d0%b9%d1%86%d1%83%d0%ba%d0%b5%d0%bd%d0%b3%d1%88%d1%89%d0%b7%d1%85%d1%97%d1%84%d1%96%d0%b2%d0%b0%d0%bf%d1%80%d0%be%d0%bb%d0%b4%d0%b6%d1%94%d1%8f%d1%87%d1%81%d0%bc%d0%b8%d1%82%d1%8c%d0%b1%d1%8e 3
+2014 3
+%d0%be%d1%80%d0%b8%d1%84%d0%bb%d0%b5%d0%b9%d0%bc 3
+%d0%bc%d0%b0%d0%b3%d0%b0%d0%b7%d0%b8%d0%bd 3
+ua-1.com 3
+%d0%b2%d0%b5%d0%bb%d0%be%d1%81%d0%b8%d0%bf%d0%b5%d0%b4%d1%96%d0%b2 3
+%d0%bc%d0%b0%d0%b9 3
+%d0%b0%d0%bf%d1%80%d0%b5%d0%bb%d1%8c 3
+%d1%80%d0%b0%d0%b7%d0%bc%d0%b5%d1%80%d1%8b 2
+%d0%bc%d0%b0%d1%81%d1%81%d0%b8%d0%bc%d0%be 1
+%d0%be%d0%bd%d0%bb%d0%b0%d0%b9%d0%bd 1
+%d0%bf%d1%80%d0%be%d0%b4%d1%83%d0%ba%d1%86%d0%b8%d1%8f 1
+%d0%b4%d0%b5%d0%ba%d0%be%d1%80%d0%b0%d1%82%d0%b8%d0%b2%d0%bd%d1%96 1
+%d0%ba%d0%b8%d0%b5%d0%b2 1
+http 1
+%2f%2fstvol.ua%2fcatalog%2fbrend%2fsayga%2f 1
+%d0%bc%d0%b8%d0%bd%d0%b8 1
+%d0%bb%d0%be%d1%88%d0%b0%d0%b4%d0%b8%d0%bd%d0%b0%d1%8f 1
+%d0%b8%d0%bd%d0%b1%d0%bb%d1%83 1
+%d0%b2 1
+%d1%8d%d0%b9%d0%b2%d0%be%d0%bd 1
+%d0%b4%d1%8d%d0%bd%d0%b8%d1%8d%d0%bb%d1%81 2
+%d1%81%d0%b0%d0%b9%d1%82%d0%b0 2
+%d1%81%d0%b8%d0%bb%d0%b0 1
+%d0%be%d0%b1%d0%be%d0%b8 2
+%d0%b1%d0%be%d0%bb%d1%8c%d1%88%d0%b8%d0%b5 2
+%d0%ba%d0%b0%d1%82%d0%be%d0%bb%d0%be%d0%b3 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b0 1
+centro 2
+%d0%b8%d0%b7%d0%b4%d0%b5%d0%bb%d0%b8%d1%8f 1
+%d0%ba%d0%be%d0%bc%d0%bf%d0%b0%d0%bd%d0%b8%d0%b8 1
+%d0%ba%d0%be%d0%bc%d0%bf%d1%8c%d1%8e%d1%82%d0%b5%d1%80 2
+%d0%bd%d0%b0 2
+%d1%82%d0%b0%d0%bf%d0%be%d1%87%d0%b5%d0%ba 1
+%d0%b1%d0%be%d0%bd%d0%bf%d1%80%d0%b8%d0%ba%d1%81 1
+%d0%ba%d1%83%d1%89%d1%96 1
+%d0%be%d0%b1%d1%83%d0%b2%d0%bd%d0%be%d0%b9 1
+%d0%b0%d0%b9%d0%b2%d0%be%d0%bd 1
+%d0%b4%d0%b6%d0%b5%d0%ba 2
+%d0%b4%d1%83%d1%82%d1%82%d0%b8 1
+%d1%83%d0%ba%d1%80%d0%b0%d0%b8%d0%bd%d0%b5 1
+%d0%ba%d0%be%d0%bd%d1%8c%d1%8f%d0%ba 2
+kari 1
+%d0%b7%d0%be%d0%bb%d0%be%d1%82%d0%be 1
+%d1%80%d0%b5%d0%b3%d0%b8%d1%81%d1%82%d1%80%d0%b0%d1%86%d0%b8%d1%8f 2
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 15 6109
+503 23 12236
+302 110 30976
+206 348 5867841
+404 193 88047
+301 1545 723557
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 193
+/places/Ekstrimalnyj-sport/MTIw&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ekstrimalnyj-sport/MTIw
+/places/Natsionalnaya-kukhnya/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Natsionalnaya-kukhnya/
+/places/Zootovary/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zootovary/
+/places/Muzei/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Muzei/
+/places/Ozera-&-Lesa/ODM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ozera-&-Lesa/ODM=
+/eyeCategory/Eye-Science/Mw==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/eyeCategory/Eye-Science/Mw==
+/places/Torgovye-tsentry/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Torgovye-tsentry/
+/places/Mebel-&-Furnitura/NTk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Mebel-&-Furnitura/NTk=
+/places/Yuvelirnye-izdeliya/Nzk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Yuvelirnye-izdeliya/Nzk=
+/places/Tennis/MTE3&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tennis/MTE3
+/places/Natsionalnye-parki/ODI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Natsionalnye-parki/ODI=
+/places/Tovary-dlya-detej/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tovary-dlya-detej/
+/places/Avtosport/ODg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Avtosport/ODg=
+/group/SPORT/MTE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/SPORT/MTE=
+/places/Monumenty/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Monumenty/
+/places/Sladkoezhka/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sladkoezhka/
+/places/Parki-&-Sady/ODQ=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Parki-&-Sady/ODQ=
+/places/Morskaya-pischa/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Morskaya-pischa/
+/places/Bezopasnost-&-Zaschita/NTM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bezopasnost-&-Zaschita/NTM=
+/places/Ekstrimalnyj-sport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ekstrimalnyj-sport/
+/blogs/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/Ng==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/Ng==
+/places/Parki-&-Sady/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Parki-&-Sady/
+/places/Tatu-salony/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tatu-salony/
+/places/Antikvariat/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Antikvariat/
+/places/Literatura/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Literatura/
+/places/Telefony/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Telefony/
+/profile&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/profile
+/places/Karting/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Karting/
+/places/Karting/MTEw&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Karting/MTEw
+/group/ISTORIYa/Ng==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/ISTORIYa/Ng==
+/places/Morskaya-pischa/Mzg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Morskaya-pischa/Mzg=
+/places/Drugie/NTE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Drugie/NTE=
+/places/Gostinnitsy/MzI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Gostinnitsy/MzI=
+/places/Gostinnitsy/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Gostinnitsy/
+/places/Futbol/MTE5&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Futbol/MTE5
+/places/Voennaya-istoriya/NDQ=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Voennaya-istoriya/NDQ=
+/places/Volejbol/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Volejbol/
+/places/Splavy/MzM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Splavy/MzM=
+/places/Chasy-ochki/Nzc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Chasy-ochki/Nzc=
+/places/Foto/NzY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Foto/NzY=
+/places/Voennaya-istoriya/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Voennaya-istoriya/
+/places/Bary-&-Paby/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bary-&-Paby/
+/places/Peshij-turizm/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Peshij-turizm/
+/places/Mestnaya-istoriya/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Mestnaya-istoriya/
+/locations//&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/locations//
+/places/Volejbol/MTA3&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Volejbol/MTA3
+/places/Krasota-&-Zdorove/NTg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Krasota-&-Zdorove/NTg=
+/eyeList&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/eyeList
+/places/Plyazhi/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Plyazhi/
+/places/Remont-&-Santekhnika/NjU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Remont-&-Santekhnika/NjU=
+/blogs/category/all&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/all
+/places/Muzei/NDg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Muzei/NDg=
+/places/Sumki-chemodany-portfeli/Njk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sumki-chemodany-portfeli/Njk=
+/places/Ledovye-areny/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ledovye-areny/
+/newsCategory/Natsionalnye-novosti/MQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/newsCategory/Natsionalnye-novosti/MQ==
+/places/Zavody/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zavody/
+/places/Restorany/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Restorany/
+/places/Ozera-&-Lesa/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ozera-&-Lesa/
+/places/Bary-&-Paby/MjI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bary-&-Paby/MjI=
+/places/Bytovaya-tekhnika/NTQ=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bytovaya-tekhnika/NTQ=
+/places/Nauka/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Nauka/
+/places/Zavody/MzU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zavody/MzU=
+/places/Elektrooborudovanie/Nzg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Elektrooborudovanie/Nzg=
+/group/EDA-&-NAPITKI/NQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/EDA-&-NAPITKI/NQ==
+/places/Natsionalnye-parki/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Natsionalnye-parki/
+/places/Knigi-&-Muzyka/NTY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Knigi-&-Muzyka/NTY=
+/places/Futbol/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Futbol/
+/places/Fast-food/NDM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Fast-food/NDM=
+/places/Zapovedniki/ODA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zapovedniki/ODA=
+/places/Stadiony/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Stadiony/
+/places/Meditsina/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Meditsina/
+/places/Drugie/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Drugie/
+/places//&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places//
+/places/Kompyutery/NTc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Kompyutery/NTc=
+/blogs/category/Mw==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/Mw==
+/newsList&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/newsList
+/places/Tatu-salony/NzA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tatu-salony/NzA=
+/places/Vodnyj-sport/OTM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Vodnyj-sport/OTM=
+/places/Sport-&-Razvlecheniya/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sport-&-Razvlecheniya/
+/places/Knigi-&-Muzyka/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Knigi-&-Muzyka/
+/newsCategory/Mirovye/Mg==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/newsCategory/Mirovye/Mg==
+/places/Sportivnye-kluby/MTE1&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sportivnye-kluby/MTE1
+/places/Konnyj-sport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Konnyj-sport/
+/places/Bejsbol/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bejsbol/
+/places/Zooparki/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zooparki/
+/places/Chasy-ochki/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Chasy-ochki/
+/places/Avtozapchasti/Mjg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Avtozapchasti/Mjg=
+/places/Kafeterii/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Kafeterii/
+/places/Golf/MTA4&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Golf/MTA4
+/places/Kompyutery/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Kompyutery/
+/places/Yuvelirnye-izdeliya/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Yuvelirnye-izdeliya/
+/newsAnalytics&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/newsAnalytics
+/places/Golf/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Golf/
+/places/Podarki-&-Suveniry/NjM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Podarki-&-Suveniry/NjM=
+/places/Krasota-&-Zdorove/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Krasota-&-Zdorove/
+/places/Monumenty/NDc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Monumenty/NDc=
+/addPlace&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/addPlace
+/places/Stadiony/MTE2&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Stadiony/MTE2
+/blogs/category/NQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/NQ==
+/news//&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/news//
+/places/Tovary-dlya-detej/NzM=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tovary-dlya-detej/NzM=
+/places/Zapovedniki/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zapovedniki/
+/places/Meditsina/NjA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Meditsina/NjA=
+/places/Odezhda-&-Obuv/NjI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Odezhda-&-Obuv/NjI=
+/places/Bejsbol/OTE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bejsbol/OTE=
+/blogs/For-the-ball-used-in-the-sport-see-Basketball-(ball)-For-other-uses-see-Basketball-(disambiguation)-/Mg==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/For-the-ball-used-in-the-sport-see-Basketball-(ball)-For-other-uses-see-Basketball-(disambiguation)-/Mg==
+/places/Ledovye-areny/MTEy&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Ledovye-areny/MTEy
+/places/Drugoj-sport/MTIx&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Drugoj-sport/MTIx
+/places/Foto/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Foto/
+/places/TV-Audio-Video/NzI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/TV-Audio-Video/NzI=
+/places/Mebel-&-Furnitura/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Mebel-&-Furnitura/
+/places/Samolety-Poezda-Avtomobili/NTA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Samolety-Poezda-Avtomobili/NTA=
+/places/Sladkoezhka/NDI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sladkoezhka/NDI=
+/places/Arkhitektura/Mjc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Arkhitektura/Mjc=
+/places/Zootovary/NTU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zootovary/NTU=
+/places/Odezhda-&-Obuv/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Odezhda-&-Obuv/
+/places/Seks-shopy/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Seks-shopy/
+/places/Muzykalnye-instrumenty/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Muzykalnye-instrumenty/
+/places/Arkhitektura/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Arkhitektura/
+/places/Bezopasnost-&-Zaschita/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bezopasnost-&-Zaschita/
+/places/Avtosport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Avtosport/
+/group/PRIRODA/OA==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/PRIRODA/OA==
+/places/Bytovaya-tekhnika/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bytovaya-tekhnika/
+/places/Prirodnye-osobennosti/ODc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Prirodnye-osobennosti/ODc=
+/places/Zdorovaya-pischa/MzY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zdorovaya-pischa/MzY=
+/places/Prirodnye-osobennosti/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Prirodnye-osobennosti/
+/places/Zdorovaya-pischa/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zdorovaya-pischa/
+/places/TV-Audio-Video/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/TV-Audio-Video/
+/eyeCategory/Nebesnyj-glaz/MQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/eyeCategory/Nebesnyj-glaz/MQ==
+/places/Svadebnye-tovary/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Svadebnye-tovary/
+/group/RAZVLEChENIYa/MTA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/RAZVLEChENIYa/MTA=
+/blogs/Football-From-Wikipedia-the-free-encyclopedia/MQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/Football-From-Wikipedia-the-free-encyclopedia/MQ==
+/eyeCategory/Eye-Music/Mg==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/eyeCategory/Eye-Music/Mg==
+/group/POKUPKI/Nw==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/POKUPKI/Nw==
+/places/Nauka/NDk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Nauka/NDk=
+/places/Samolety-Poezda-Avtomobili/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Samolety-Poezda-Avtomobili/
+/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com
+/myPlaces&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/myPlaces
+/places/Torgovye-tsentry/NzU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Torgovye-tsentry/NzU=
+/places/Trenazhernye-zaly/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Trenazhernye-zaly/
+/places/Mestnaya-istoriya/NDY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Mestnaya-istoriya/NDY=
+/places/Tovary-dlya-doma-&-sada/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tovary-dlya-doma-&-sada/
+/places/Motosport/MTEz&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Motosport/MTEz
+/places/Trenazhernye-zaly/MTE4&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Trenazhernye-zaly/MTE4
+/places/Svadebnye-tovary/NjY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Svadebnye-tovary/NjY=
+/blogs/Origin-of-volleyball/Mw==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/Origin-of-volleyball/Mw==
+/places/Podarki-&-Suveniry/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Podarki-&-Suveniry/
+/places/Rybalka-&-Okhota/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Rybalka-&-Okhota/
+/group/INFRASTRUKTURA/MTI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/INFRASTRUKTURA/MTI=
+/places/Bassejny/OTA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bassejny/OTA=
+/blogs/category/Mg==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/Mg==
+/places/Seks-shopy/Njc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Seks-shopy/Njc=
+/places/Pivnye/NDA=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Pivnye/NDA=
+/blogs/category/MQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/MQ==
+/places/Restorany/NDE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Restorany/NDE=
+/blogs/Blog-Test-Jeni-012222/NQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/Blog-Test-Jeni-012222/NQ==
+/places/Rybalka-&-Okhota/MTE0&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Rybalka-&-Okhota/MTE0
+/places/Splavy/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Splavy/
+/places/Zimnij-sport/MTA5&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zimnij-sport/MTA5
+/places/Pivnye/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Pivnye/
+/places/Telefony/NzE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Telefony/NzE=
+/places/Tennis/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tennis/
+/places/Tovary-dlya-doma-&-sada/NzQ=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Tovary-dlya-doma-&-sada/NzQ=
+/places/Zooparki/ODE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zooparki/ODE=
+/places/Natsionalnaya-kukhnya/Mzk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Natsionalnaya-kukhnya/Mzk=
+/places/Sport-&-Razvlecheniya/Njg=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sport-&-Razvlecheniya/Njg=
+/places/Konnyj-sport/MTEx&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Konnyj-sport/MTEx
+/places/Elektrooborudovanie/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Elektrooborudovanie/
+/places/Remont-&-Santekhnika/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Remont-&-Santekhnika/
+/placesList&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/placesList
+/places/Motosport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Motosport/
+/places/Plyazhi/ODY=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Plyazhi/ODY=
+/places/Peshij-turizm/ODU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Peshij-turizm/ODU=
+/places/Bassejny/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Bassejny/
+/places/Fast-food/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Fast-food/
+/places/Produkty-pitaniya-napitki/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Produkty-pitaniya-napitki/
+/places/Kafeterii/Mzc=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Kafeterii/Mzc=
+/group/PROZhIVANIE/OQ==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/group/PROZhIVANIE/OQ==
+/editPlace/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/editPlace/
+/places/Basketbol/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Basketbol/
+/places/Sumki-chemodany-portfeli/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sumki-chemodany-portfeli/
+/places/Zimnij-sport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Zimnij-sport/
+/places/Muzykalnye-instrumenty/NjE=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Muzykalnye-instrumenty/NjE=
+/places/Produkty-pitaniya-napitki/NjQ=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Produkty-pitaniya-napitki/NjQ=
+/eye//&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/eye//
+/places/Basketbol/ODk=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Basketbol/ODk=
+/places/Literatura/NDU=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Literatura/NDU=
+/places/Vodnyj-sport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Vodnyj-sport/
+/blogs/category/NA==&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/blogs/category/NA==
+/places/Drugoj-sport/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Drugoj-sport/
+/places/Sportivnye-kluby/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Sportivnye-kluby/
+/places/Antikvariat/NTI=&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Antikvariat/NTI=
+/places/Avtozapchasti/&media=http%3A%2F%2Fwww.ua-1.com%2F&description= 1 http://www.ua-1.com/places/Avtozapchasti/
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 650
+173.233.97.233 45252 45961 31935248 20140430235938
+180.94.70.74 28052 40828 66703815 20140430235952
+99.249.106.183 2746 2937 3015423 20140428133931
+175.100.72.131 2632 4648 212025170 20140428213439
+180.94.70.76 1497 1647 1647955 20140402214747
+98.245.80.251 1184 1370 4376341 20140416232020
+79.171.53.99 681 682 272073 20140413035813
+109.108.253.87 536 888 7301169 20140430173744
+24.52.213.232 393 491 2213640 20140403012531
+190.19.236.66 384 483 2252084 20140423203035
+101.226.51.228 1 1 190248 20140419152911
+90.163.60.80 6 105 2096364 20140425191224
+109.154.57.214 2 101 2114565 20140420012608
+202.46.62.202 3 3 547505 20140430160349
+91.124.95.157 4 118 2493892 20140426221651
+46.107.49.157 21 122 2074631 20140401030549
+162.13.122.106 110 136 21901315 20140406094151
+202.46.52.36 1 1 186635 20140408060215
+202.46.56.56 1 1 17952 20140429135954
+89.252.47.217 3 98 2036005 20140405225547
+109.24.204.230 8 104 2090880 20140405132302
+101.127.30.138 3 103 2060837 20140428161248
+82.193.117.96 1 1 26804 20140426221620
+202.46.48.25 1 1 189017 20140427175647
+89.67.247.194 1 1 26838 20140425193752
+217.69.133.169 2 2 53423 20140422222041
+37.53.153.65 1 1 26680 20140428205356
+216.38.216.101 3 53 2447113 20140422005808
+220.181.108.174 0 8 209734 
+24.3.18.253 4 97 2003684 20140407080609
+220.181.108.166 0 4 153637 
+189.122.11.158 9 240 2270343 20140423005014
+220.181.108.173 0 7 440438 
+202.46.53.39 1 1 76760 20140416080819
+176.14.80.246 8 8 1492332 20140406070306
+23.80.132.202 2 95 1975832 20140413001350
+78.111.186.56 1 72 1459944 20140426222128
+202.46.56.46 1 1 186635 20140415220445
+202.46.51.49 1 1 186635 20140403180114
+69.171.172.227 3 97 2004129 20140401183519
+220.233.109.94 6 99 1978361 20140406130237
+176.8.175.138 1 79 1785761 20140426221701
+79.171.53.97 204 254 210957 20140427215343
+95.132.137.86 1 34 1279475 20140428134049
+202.46.55.50 2 2 373270 20140417080406
+202.46.56.40 2 2 376883 20140425080352
+46.211.123.168 1 31 1265628 20140420141413
+88.135.243.10 4 101 2052561 20140426222430
+202.46.61.24 1 1 186635 20140402180148
+77.64.33.246 13 296 2052997 20140427170840
+179.156.72.104 5 200 2200840 20140425021739
+110.142.65.64 69 456 2347839 20140422004037
+190.134.4.182 40 246 2926943 20140427213852
+220.181.108.155 0 7 455863 
+202.46.49.111 1 1 186635 20140414051721
+202.46.55.31 2 2 263395 20140417160620
+60.169.80.237 1 1 189321 20140430192905
+202.46.52.33 1 1 76706 20140424120035
+220.181.108.168 0 6 62163 
+95.65.30.29 1 1 26495 20140414120942
+202.46.53.63 1 1 186635 20140407200651
+220.181.108.145 0 7 168948 
+202.46.62.92 1 1 189017 20140430135957
+202.46.63.122 1 1 190248 20140418175719
+202.46.57.85 4 4 675681 20140427120105
+95.135.5.28 29 127 2094161 20140427160859
+80.245.118.122 7 103 2041373 20140406001952
+64.233.172.38 1 1 26820 20140426231801
+176.241.108.66 14 230 4417764 20140426221557
+202.46.54.43 1 1 85058 20140402200811
+178.210.146.251 34 144 2103465 20140430205348
+62.24.181.134 1 18 1005925 20140430223101
+202.46.49.70 3 3 452412 20140427135911
+85.230.246.232 14 203 3997051 20140408130925
+202.46.62.30 1 1 93963 20140428220218
+216.172.56.37 1 1 26803 20140428024049
+189.249.157.52 31 225 2027868 20140408072332
+79.143.47.246 0 1 177806 
+178.74.249.210 224 375 5337774 20140429211332
+202.46.48.11 1 1 76706 20140426020051
+78.111.186.176 1 77 1578579 20140426221802
+202.46.62.12 1 1 76706 20140418020240
+202.46.58.35 1 1 190248 20140426100302
+134.249.81.55 6 103 2080683 20140426222040
+88.173.157.243 314 532 2571746 20140421160941
+151.0.18.146 11 118 2505630 20140409075923
+41.203.69.6 2 67 1570059 20140409025716
+202.46.57.83 4 4 645019 20140424081228
+220.181.108.187 0 6 469749 
+101.226.33.205 1 1 186635 20140407205034
+107.178.211.37 1 1 186635 20140416221005
+71.87.25.94 3 101 2003615 20140426200928
+54.221.170.67 1 1 28909 20140414224507
+106.69.138.29 3 102 2114925 20140425135930
+91.73.44.85 5 200 2084968 20140428204950
+202.46.54.44 1 1 186635 20140403060246
+67.86.76.247 3 96 1977279 20140404033451
+75.110.239.50 13 198 2011817 20140409175846
+216.152.251.91 1 1 187503 20140405134307
+46.172.221.149 4 4 746165 20140403235804
+79.171.53.69 2 37 27045 20140430171652
+202.46.56.54 2 2 379265 20140428175748
+202.46.48.24 3 3 565900 20140427200433
+92.113.37.175 123 249 2296096 20140430235936
+220.181.108.167 0 11 791312 
+128.68.153.35 8 8 1521236 20140422171715
+202.46.53.179 1 1 186635 20140403100623
+202.46.57.68 2 2 283656 20140418140110
+202.46.52.24 1 1 186635 20140405120323
+95.91.230.21 2 96 2034830 20140402003858
+202.46.56.50 4 4 750153 20140423120114
+141.105.135.223 1 1 190248 20140426091558
+95.133.188.117 0 1 26923 
+202.46.56.47 4 4 638993 20140429100137
+87.57.60.125 2 102 2112789 20140419140211
+78.99.254.158 2 101 2111980 20140419165810
+202.46.54.41 1 1 186635 20140407181352
+107.178.208.104 1 1 189017 20140427054338
+193.200.190.245 0 1 189249 
+220.181.108.149 0 11 853885 
+78.185.115.170 105 219 3081899 20140403234708
+85.199.243.58 33 227 2149690 20140422163740
+202.46.55.23 1 1 190248 20140423160554
+115.118.12.30 67 264 3219346 20140424212315
+202.46.54.121 1 1 186635 20140405140332
+202.46.63.123 1 1 93963 20140430055851
+108.59.87.124 1 1 190248 20140424110425
+119.63.193.132 61 61 10377364 20140430020129
+77.120.92.102 3 100 2026932 20140426221839
+202.46.54.178 1 1 76760 20140410140226
+202.46.61.147 1 1 186635 20140403220711
+202.46.62.20 3 3 525039 20140416175909
+107.178.220.9 1 1 186635 20140413000237
+91.214.137.238 54 152 2085984 20140429234904
+76.182.206.159 3 96 1976193 20140405071043
+220.181.108.152 0 9 763266 
+202.46.58.23 3 3 449976 20140421061434
+195.162.81.82 45 151 2500187 20140428165023
+58.108.147.58 2 101 2114565 20140422113315
+202.46.63.125 2 2 263395 20140414060037
+202.46.63.44 3 3 415164 20140416160624
+220.181.108.181 0 5 91914 
+202.46.58.34 4 4 526682 20140421181312
+130.82.138.174 1 43 1409942 20140403161106
+220.181.108.169 0 9 708392 
+202.46.51.43 1 1 76760 20140408160747
+93.77.210.208 4 108 2198882 20140419144013
+109.192.4.54 31 240 2716876 20140424105449
+202.46.56.43 1 1 76760 20140417000217
+78.111.217.205 1 1 26803 20140426221331
+184.96.115.232 2 101 2114565 20140422011328
+195.230.115.207 1 1 26522 20140417033603
+202.46.49.14 1 1 189017 20140429081032
+202.46.55.35 1 1 186635 20140405200747
+180.153.214.189 1 1 190248 20140421153403
+202.46.49.127 2 2 373270 20140412060015
+202.46.54.40 3 3 453589 20140424175716
+62.194.24.30 2 99 1999125 20140427110548
+220.181.108.142 0 4 81586 
+202.46.57.80 3 3 466678 20140420080537
+202.46.55.32 1 1 189017 20140428100314
+95.58.205.22 10 113 2421054 20140420090550
+94.153.64.111 3 100 2026929 20140426221807
+82.145.219.43 2 83 2515397 20140426221711
+176.14.27.139 8 8 1492332 20140408011157
+50.16.165.143 1 1 190248 20140419170015
+202.46.51.44 2 2 373270 20140410100404
+112.64.235.246 2 77 6780093 20140425154420
+220.181.108.160 0 11 903373 
+202.46.48.14 3 3 562287 20140426220220
+202.46.55.25 2 2 373270 20140413020216
+220.181.108.143 0 4 240483 
+202.46.52.23 2 2 379265 20140428040326
+67.217.35.25 1 1 26522 20140407213930
+202.46.57.62 3 3 563518 20140420140139
+50.174.185.137 2 99 1999125 20140429191347
+124.237.197.70 1 1 194245 20140415100033
+91.232.96.22 1 1 188988 20140427100310
+202.46.56.55 5 5 942783 20140426140731
+188.40.249.74 4 4 746165 20140405063716
+46.164.179.4 11 110 2065867 20140429221619
+162.222.177.195 1 1 186635 20140408175902
+54.197.215.119 1 1 28909 20140411020554
+124.185.189.191 101 101 2706229 20140412020105
+78.26.177.38 3 101 2027739 20140426223051
+64.237.229.3 3 102 2114924 20140420054639
+217.76.74.148 6 106 2142402 20140419214129
+202.46.55.33 1 1 76760 20140407000420
+202.46.55.55 2 2 379265 20140426235959
+202.46.50.72 1 1 189017 20140430115934
+202.46.52.121 1 1 186568 20140406054953
+202.46.62.19 2 2 373270 20140406161024
+119.157.28.48 3 97 1978099 20140401095050
+119.40.107.209 2 112 2079320 20140403130744
+220.181.108.140 0 11 440631 
+220.181.108.179 0 19 825648 
+142.3.69.128 8 101 1978036 20140408064143
+202.46.62.91 3 3 562287 20140427100228
+202.46.62.24 3 3 565900 20140430100157
+82.145.208.241 4 131 1873889 20140426222021
+90.204.215.131 14 202 2092609 20140403163620
+66.215.162.147 4 100 2065450 20140417074552
+107.178.212.218 1 1 189017 20140430224802
+220.181.51.103 1 1 26523 20140412214730
+46.185.112.52 7 104 2106323 20140426221401
+202.46.61.47 1 1 186635 20140410065431
+202.46.62.94 5 5 941552 20140428020042
+202.46.52.34 1 1 17952 20140408021028
+202.46.53.31 4 4 750153 20140420100531
+36.88.173.185 5 109 2240151 20140419094905
+220.181.108.186 0 8 728565 
+194.44.220.194 3 101 2027740 20140426222818
+178.74.204.229 40 144 2118858 20140428182939
+189.186.149.148 214 507 3016543 20140412203831
+88.247.132.41 82 291 2255298 20140418012251
+202.67.41.5 1 16 1020378 20140419055850
+27.32.21.39 2 101 2113476 20140421132707
+202.46.54.53 3 3 356731 20140415060058
+202.46.58.22 1 1 76677 20140428081248
+199.19.249.196 1 1 189017 20140428153002
+38.100.21.64 11 11 2101423 20140425005057
+119.147.146.189 6 12 1628974 20140421164439
+202.46.49.17 2 2 376883 20140419220452
+199.30.25.228 0 10 661177 
+199.217.119.4 6 6 1130649 20140426084437
+93.72.231.193 0 1 26925 
+111.174.41.240 1 1 26900 20140425084125
+119.63.193.194 79 79 14142435 20140430220405
+46.211.131.129 2 46 1410590 20140426225619
+202.46.50.14 1 1 186635 20140404180010
+108.59.82.225 1 1 189017 20140427083341
+222.186.26.198 3 3 569203 20140430202418
+94.242.222.29 2 2 380496 20140425104929
+220.181.108.156 0 7 265152 
+23.251.154.74 1 1 186635 20140410184752
+88.135.250.12 4 101 2052560 20140426221448
+202.46.63.41 2 2 379265 20140426160333
+202.46.63.120 2 2 258476 20140425220314
+110.168.236.250 2 95 1975834 20140404231519
+99.247.229.46 2 2 25621 20140428151939
+202.46.51.40 1 1 186635 20140409160751
+176.113.249.24 7 104 2106315 20140426222104
+202.46.51.51 2 2 376883 20140423220405
+220.181.108.172 0 10 701778 
+202.46.61.29 1 1 186635 20140403160928
+69.58.178.57 12 12 2265053 20140407102153
+70.30.7.203 47 180 2152570 20140410041427
+46.172.132.104 3 101 2027742 20140426221949
+54.82.32.68 1 2 53026 20140416194228
+198.27.13.26 1 1 26525 20140404214823
+110.142.242.184 2 2 53800 20140424074219
+91.239.150.10 9 107 2086972 20140428190456
+220.181.108.161 0 11 198262 
+202.46.55.34 1 1 190248 20140422040445
+202.46.53.61 2 2 373270 20140416140203
+202.46.55.56 1 1 186635 20140416120125
+179.26.35.93 205 298 2050001 20140403040011
+202.46.56.48 3 3 563518 20140425200507
+95.138.186.201 110 136 21901315 20140406085233
+128.72.130.236 8 8 1492332 20140417204452
+54.80.135.153 1 1 29282 20140419160931
+220.181.108.150 0 6 138231 
+220.181.108.184 0 2 268064 
+95.79.132.190 1 1 190248 20140425104949
+74.52.245.146 1 1 186635 20140413023506
+77.59.141.231 2 95 1976922 20140411213125
+202.46.48.16 1 1 17952 20140423060134
+31.202.226.44 3 100 2026931 20140426221840
+79.228.100.141 6 100 2035209 20140408110905
+2.103.151.26 21 119 2009624 20140430223623
+128.72.127.161 8 8 1492332 20140407162019
+81.162.216.18 6 103 2105949 20140426222011
+47.16.108.150 22 115 1984122 20140402054510
+80.99.76.140 0 3 80241 
+202.46.54.54 2 2 373270 20140414040537
+202.46.51.46 1 1 186635 20140402140440
+202.46.62.93 1 1 186635 20140404141249
+54.224.17.8 1 1 28907 20140416094511
+109.241.105.198 8 112 2648415 20140430163121
+79.171.53.114 10 10 3600 20140414205758
+76.172.83.196 2 99 2000214 20140429092603
+202.46.58.36 2 2 379265 20140427015925
+79.171.53.103 12 104 31299 20140409224719
+67.169.70.189 2 95 1975832 20140411034950
+220.181.108.185 0 8 465827 
+202.46.56.41 1 1 186635 20140405040601
+202.46.57.63 2 2 208200 20140422060036
+220.181.108.178 0 6 205675 
+131.181.251.20 6 195 2061740 20140417051555
+78.164.224.104 8 198 2026246 20140427232548
+192.171.49.233 2 101 2110891 20140418170030
+80.60.45.55 2 101 2114566 20140422174533
+2.49.52.107 11 123 2207715 20140429072732
+202.46.58.21 4 4 642660 20140428160344
+202.46.54.42 1 1 186635 20140407120204
+202.46.53.32 2 2 267008 20140423181222
+202.46.57.64 2 2 111288 20140409140229
+101.175.4.83 2 99 1999126 20140427053658
+202.46.50.13 2 2 376883 20140426000141
+199.173.224.31 4 194 4296869 20140423175828
+202.46.58.29 2 2 263395 20140417175859
+107.178.219.75 1 1 186635 20140414224133
+202.46.57.65 2 2 376883 20140422160721
+180.153.206.25 1 66 5069313 20140430154904
+78.180.82.243 3 100 2000580 20140430172333
+94.127.144.225 9 9 1678938 20140416005818
+98.189.73.8 26 148 2578126 20140430215743
+202.46.53.69 2 2 375652 20140429220816
+68.12.73.32 2 95 1975831 20140410010341
+202.46.57.82 1 1 85114 20140425055915
+220.181.108.157 0 8 288222 
+202.46.61.31 1 1 186635 20140401200954
+37.52.96.195 3 113 2044675 20140427091841
+66.210.59.5 5 200 2194923 20140418022558
+85.186.188.29 1 1 186635 20140408051623
+79.171.53.124 12 156 289238 20140418205800
+220.181.108.154 0 11 592072 
+82.230.103.219 105 199 2100247 20140403013742
+77.20.11.156 4 204 4223526 20140419100225
+202.46.55.30 1 1 186635 20140401120416
+37.55.204.97 5 103 2114175 20140426234014
+202.46.49.16 1 1 85627 20140430020034
+220.181.108.162 0 6 608242 
+119.147.146.195 4 8 1086242 20140425162623
+202.46.62.104 1 1 186635 20140406040511
+188.24.175.111 11 339 4260905 20140403185657
+77.247.28.196 1 1 26803 20140426221320
+202.46.62.11 1 1 189017 20140426175641
+199.30.25.101 2 23 580931 20140420060230
+119.63.193.130 64 64 11721621 20140430200351
+196.46.245.158 1 1 26456 20140407114232
+66.249.82.38 12 502 11078368 20140430194635
+208.115.113.87 7 7 1326358 20140413153325
+46.211.19.114 3 100 2026934 20140426221832
+85.218.12.147 199 393 2137082 20140427161434
+178.137.124.128 2 98 1944965 20140426222034
+199.30.25.111 1 21 367954 20140414203221
+24.180.44.225 4 103 2115285 20140420120852
+87.251.174.115 37 130 2068222 20140430123039
+79.177.24.243 2 99 2000214 20140428212340
+202.46.58.31 2 2 375652 20140428000026
+83.65.148.186 4 105 2337229 20140413021427
+202.46.61.28 1 1 186635 20140402220735
+189.210.194.195 13 143 3345539 20140422180140
+103.30.85.113 13 200 2006350 20140411053720
+220.181.108.141 0 14 915104 
+94.20.230.213 24 117 1984841 20140416181601
+220.181.108.159 0 11 471316 
+194.8.147.10 11 109 2004264 20140428101319
+180.153.206.26 1 1 186635 20140401204332
+202.46.53.36 2 2 373270 20140412020036
+220.181.108.146 0 7 503256 
+202.46.62.97 2 2 208200 20140426040312
+93.74.179.207 9 106 2029092 20140426221817
+41.58.100.172 5 115 2087480 20140407103333
+202.46.63.121 1 1 93408 20140421080609
+202.46.62.100 4 4 639047 20140426120100
+109.129.248.57 2 95 1976923 20140413005653
+202.46.56.45 2 2 376883 20140418200531
+202.46.50.70 1 1 186635 20140413000208
+23.251.149.119 1 1 186635 20140407062142
+71.67.114.6 9 122 2131763 20140429175335
+5.47.67.243 19 215 2178924 20140420004234
+202.46.62.34 2 2 380496 20140425120201
+78.111.186.175 234 338 2506507 20140428135245
+202.46.54.48 1 1 190248 20140418120154
+23.236.56.155 1 1 186635 20140409203700
+202.46.50.19 2 2 204587 20140425000213
+202.46.62.205 1 1 76760 20140409020206
+35.2.68.130 13 107 2041059 20140407212616
+176.36.52.189 1 1 28846 20140430230806
+162.222.183.214 1 1 186635 20140404073044
+202.46.53.33 5 5 940401 20140421120142
+107.178.215.250 1 1 186635 20140415175450
+79.171.53.81 60 60 73971 20140430210018
+202.46.54.39 1 1 186635 20140411140215
+202.46.49.22 1 1 190181 20140418055835
+202.46.55.193 1 1 178712 20140415000317
+193.43.252.252 4 4 746165 20140402023843
+208.43.248.248 98 98 2624195 20140414112958
+202.46.54.55 1 1 186635 20140411160645
+107.178.220.103 1 1 190248 20140425200057
+178.158.48.21 3 103 2029360 20140426221642
+23.251.159.91 1 1 186635 20140407194933
+202.46.55.53 2 2 266954 20140424220301
+202.46.52.28 2 2 208200 20140423200539
+176.100.6.139 1 114 2119867 20140426221737
+202.46.55.20 1 1 190248 20140423000323
+103.246.36.213 13 13 761779 20140422082105
+202.46.54.58 1 1 76706 20140419020106
+83.151.37.142 37 242 2270740 20140420002743
+202.46.52.29 3 3 298550 20140429000044
+27.147.237.249 2 101 2111979 20140418175620
+96.250.16.177 2 111 2085574 20140404135915
+220.181.108.151 0 6 461654 
+189.245.174.141 9 109 2175036 20140423005739
+107.178.212.125 1 1 186635 20140404192713
+202.46.60.62 1 1 186635 20140401140459
+95.135.125.104 41 140 2077957 20140402211825
+202.46.62.189 1 1 186568 20140414075922
+220.181.108.171 0 7 705755 
+202.46.57.61 3 3 403234 20140423100358
+78.130.193.94 2 96 1977731 20140407184204
+220.181.108.148 0 5 126564 
+220.181.108.139 0 5 456991 
+105.226.80.183 308 407 2222139 20140419123141
+193.239.254.49 2 99 1969453 20140426223948
+220.181.51.108 1 1 26522 20140416091239
+202.46.49.11 2 2 375652 20140428200332
+199.30.25.205 1 15 103958 20140417091855
+107.178.210.51 1 1 186635 20140411204503
+96.227.124.38 1 1 190248 20140424053845
+202.46.56.42 2 2 204587 20140427040134
+89.255.38.110 3 99 2004461 20140402173348
+103.14.60.204 11 104 1980161 20140405201000
+202.46.56.44 3 3 466678 20140424200420
+202.46.62.33 2 2 375652 20140430200248
+37.19.137.203 0 1 26924 
+202.46.62.14 4 4 731758 20140430040318
+5.167.212.227 9 124 2435741 20140415180131
+176.37.114.159 5 114 2139872 20140426221754
+101.127.49.58 5 98 1978003 20140406112936
+194.28.71.120 10 108 2030262 20140426224313
+93.72.141.194 3 100 2026924 20140426221345
+31.48.132.232 2 94 1972367 20140406174049
+98.148.253.5 25 322 4384834 20140420093150
+37.115.209.251 1 1 188988 20140428232020
+23.251.145.227 1 1 190248 20140424190958
+95.133.39.29 0 1 26552 
+202.46.48.18 2 2 376883 20140425100323
+202.46.63.129 1 1 186635 20140402160907
+153.107.97.164 8 101 1979081 20140408064921
+202.46.48.28 2 2 375652 20140430080147
+5.105.252.217 3 101 2027740 20140426222418
+220.181.108.182 0 8 287967 
+202.46.62.206 1 1 186635 20140402040830
+220.181.108.147 0 7 488442 
+64.202.161.41 4 4 560197 20140406212638
+202.46.62.106 3 3 549967 20140421040527
+54.211.68.214 1 1 28909 20140412035158
+202.46.62.17 1 1 76760 20140415040533
+80.96.141.33 49 242 2227514 20140401091055
+202.46.55.54 1 1 186635 20140401160914
+46.229.167.149 1 1 190248 20140418142027
+202.46.49.72 2 2 375652 20140427080309
+87.7.116.242 2 97 2046770 20140418141603
+173.252.80.116 0 1 139341 
+202.46.51.50 1 1 186635 20140410221103
+84.43.151.9 19 124 2203318 20140419205812
+202.46.62.85 1 1 186635 20140405211238
+202.46.54.34 1 1 186635 20140409181443
+23.251.144.49 1 1 76760 20140411082652
+76.108.10.227 2 95 1976924 20140402155703
+93.127.100.84 12 111 2020722 20140414180911
+78.111.186.93 283 412 2983885 20140428204500
+202.46.51.47 4 4 583852 20140429040247
+202.46.49.75 1 1 186635 20140404200733
+37.229.197.211 3 3 82029 20140429022509
+27.186.214.84 1 1 194245 20140411104309
+178.124.205.89 1 93 1918631 20140403164901
+93.72.184.100 81 179 2100150 20140406205012
+46.201.103.49 1 39 1298944 20140409175816
+178.158.140.44 29 126 2008845 20140427210315
+202.46.62.207 1 1 186635 20140412160455
+202.46.49.24 1 1 186568 20140410165052
+164.76.107.171 14 366 6928409 20140411211321
+37.73.233.66 1 1 26803 20140429232710
+151.0.18.254 1 1 29032 20140414190038
+202.46.54.56 3 3 458328 20140407060203
+202.46.56.53 1 1 186635 20140404220643
+202.46.63.40 1 1 190248 20140419055932
+109.108.234.188 15 115 2071357 20140429172209
+66.249.85.32 1 82 1907886 20140426220351
+220.181.108.177 0 13 774683 
+202.46.57.67 1 1 76760 20140412040350
+79.171.53.109 89 91 58085 20140414194130
+99.229.129.218 174 454 2836221 20140414201348
+202.46.58.30 1 1 186635 20140402001411
+202.46.53.34 1 1 186635 20140412141008
+202.46.48.29 1 1 76760 20140415080502
+37.52.249.214 1 53 1488650 20140422110818
+77.52.157.82 6 76 361873 20140404065803
+202.46.53.68 1 1 189017 20140430220305
+112.206.47.47 1 97 1941923 20140427074230
+64.74.215.113 4 4 1756 20140425015000
+141.105.135.248 7 116 2081045 20140426221844
+176.204.151.106 7 206 2215345 20140418084622
+109.93.28.150 2 99 2000215 20140427222409
+24.63.56.56 15 113 2034424 20140402191143
+199.30.25.134 1 96 1951055 20140417050533
+89.128.39.73 252 476 3417349 20140411203729
+54.197.166.251 1 1 29284 20140419060927
+92.252.39.24 19 124 2373309 20140421004519
+66.249.84.120 2 87 2374540 20140429111941
+202.46.53.60 2 2 373270 20140417020216
+46.219.240.59 10 118 2351095 20140428094616
+178.95.142.214 3 101 2027740 20140426225849
+83.148.175.239 2 95 1976923 20140407153203
+202.46.62.22 1 1 189017 20140428135840
+81.45.52.125 41 250 2223458 20140422025136
+202.46.55.191 2 2 375652 20140427160407
+220.181.108.153 0 13 867463 
+202.46.62.200 2 2 373270 20140413120214
+88.135.243.25 3 103 2029358 20140426224324
+112.65.193.13 1 64 4657260 20140403210747
+131.247.226.154 2 100 2060356 20140430024127
+119.63.193.195 90 90 16431883 20140430175824
+202.46.54.45 2 2 300768 20140430000039
+202.46.50.16 3 3 559905 20140416000257
+202.46.49.12 1 1 186635 20140411175801
+93.77.34.199 279 377 2157866 20140429120159
+202.46.52.27 2 2 376883 20140419141049
+202.46.57.69 2 2 376883 20140419040415
+205.204.75.107 2 101 2114564 20140422195549
+85.103.188.201 6 203 2136689 20140419220559
+81.243.130.173 2 95 1976922 20140413125546
+180.153.206.19 1 67 5218185 20140405204945
+201.21.16.214 21 137 2251307 20140420015843
+202.46.63.45 3 3 565900 20140427220223
+208.43.245.244 1 1 26523 20140411232448
+208.43.243.245 101 101 2699459 20140430115855
+202.46.63.46 3 3 453643 20140421200540
+46.119.136.231 0 1 26552 
+208.115.111.71 1 1 187503 20140407174734
+83.149.48.78 6 102 2192564 20140419103701
+220.181.51.104 2 2 53045 20140416091238
+46.183.146.100 1 1 439 20140407210545
+23.20.81.69 1 1 28909 20140417204724
+178.54.141.54 3 100 2026931 20140426221907
+195.226.213.12 6 103 2107009 20140426222023
+24.72.26.23 7 103 2063388 20140408073209
+46.118.103.121 3 100 2026930 20140426221726
+79.171.53.123 14 14 5040 20140430172611
+85.159.0.128 21 124 2078169 20140429110243
+101.226.12.89 1 1 26521 20140409065207
+220.181.108.79 0 10 439916 
+128.72.115.241 1 39 1548836 20140413074145
+202.46.49.18 1 1 189017 20140429175611
+119.63.193.131 51 51 9017373 20140430120115
+46.200.237.214 0 1 26830 
+91.124.75.174 44 143 2074072 20140429172033
+85.69.28.37 31 274 2979944 20140403212549
+202.46.58.32 3 3 281293 20140425020108
+37.54.71.128 20 367 3661346 20140430143011
+135.23.139.135 4 104 2175426 20140422032000
+220.181.108.176 0 9 584135 
+202.46.55.27 3 3 563518 20140425160424
+119.147.146.194 2 4 543491 20140419154355
+109.95.33.9 1 103 2018457 20140426221658
+178.16.87.83 1 1 26785 20140426221449
+189.231.130.57 8 192 2064215 20140415062715
+94.244.23.53 4 101 2117436 20140426223954
+157.55.252.30 1 1 26804 20140430205325
+46.118.147.13 3 101 2057394 20140428132340
+88.10.125.113 4 103 2115284 20140424153732
+202.46.57.81 1 1 190248 20140421141001
+62.163.238.171 2 95 1976921 20140408133440
+202.46.48.12 1 1 76706 20140424040350
+71.166.34.64 6 102 2191154 20140413212115
+128.69.162.63 8 8 1492332 20140416172713
+202.46.55.36 1 1 189017 20140430175735
+202.46.55.52 5 5 933175 20140413100440
+94.8.82.43 2 95 1976922 20140414210742
+220.181.108.158 0 4 287466 
+209.85.238.48 1 1 355 20140423151109
+202.46.57.66 1 1 186635 20140416020211
+178.150.243.56 1 1 26803 20140426222359
+31.202.228.137 6 106 2030439 20140426221656
+202.46.54.111 2 2 375652 20140429200317
+81.30.165.30 59 175 2167269 20140429112905
+46.160.111.89 5 136 2197687 20140426222228
+94.178.14.45 1 1 26804 20140426221452
+202.46.48.22 2 2 373270 20140416040529
+96.41.77.39 5 98 2004042 20140404031728
+220.181.108.165 0 9 1070385 
+202.46.50.17 1 1 17952 20140402081108
+208.97.120.115 74 187 343463 20140410052901
+202.46.62.208 1 1 190248 20140419100402
+193.108.227.155 16 175 5100740 20140415135422
+54.81.173.163 0 1 26508 
+109.251.185.36 0 1 26554 
+141.101.30.81 40 246 2985548 20140426205804
+159.224.31.12 15 112 2083896 20140426222336
+46.149.94.98 3 103 2029359 20140426221406
+202.46.54.46 2 2 266954 20140425040244
+202.46.52.22 1 1 190248 20140418160552
+202.46.54.64 1 1 190248 20140418045823
+69.64.32.191 4 4 746540 20140411153143
+162.222.183.118 1 1 186635 20140405010554
+78.25.120.134 0 1 177806 
+91.124.16.3 0 1 26552 
+202.46.55.190 1 1 190248 20140422080536
+41.190.208.184 3 100 2000574 20140428232221
+208.120.89.83 7 107 2147578 20140421025200
+107.178.222.137 1 1 186635 20140413220522
+46.118.175.138 2 98 1968641 20140426221339
+220.181.108.180 0 10 561720 
+220.181.51.107 2 2 53423 20140423225126
+198.27.69.78 1 1 26901 20140425021743
+202.46.62.201 4 4 538647 20140426080453
+203.35.82.165 4 103 2115293 20140422082104
+202.46.55.57 1 1 93408 20140420160619
+61.135.189.137 0 5 229495 
+189.139.58.220 3 100 2000574 20140428053444
+82.178.190.29 9 196 2005719 20140411193228
+202.46.55.28 1 1 93336 20140403140425
+119.147.146.192 6 12 1628786 20140430151915
+71.223.99.208 6 175 3714889 20140402005729
+80.255.230.93 5 105 2155017 20140425191708
+217.20.182.173 0 1 26555 
+50.123.235.195 6 106 2045829 20140426074052
+23.251.155.248 1 1 186635 20140409184440
+83.168.56.126 0 1 14938 
+202.46.49.13 1 1 186635 20140406220611
+86.166.97.22 5 98 2004047 20140405024905
+202.46.62.209 2 2 373270 20140412120217
+119.63.193.196 7 7 1306445 20140403081044
+202.46.49.71 2 2 161820 20140423020154
+81.95.182.4 3 100 2026934 20140426225510
+202.46.49.73 1 1 186635 20140417200526
+83.150.90.20 1 1 186635 20140403220324
+202.46.52.21 1 1 186635 20140415175933
+50.57.68.14 1 1 492 20140401095050
+220.181.108.170 0 4 64485 
+194.8.147.45 0 1 26552 
+202.46.49.19 2 2 376883 20140424055812
+94.179.144.160 3 123 2457935 20140426221808
+220.181.108.183 0 10 1047082 
+190.7.15.168 2 102 2113477 20140421062345
+202.46.52.30 1 1 17952 20140416060119
+91.124.133.218 12 110 2060654 20140429181452
+207.244.73.5 1 1 483 20140427145145
+202.46.63.47 2 2 280043 20140421220335
+23.236.60.219 1 1 189017 20140430084650
+220.181.108.144 0 4 183048 
+220.181.108.175 0 7 130341 
+220.181.51.105 1 1 26901 20140423225127
+88.184.166.67 88 477 4710913 20140407191617
+174.51.250.50 3 96 1977283 20140409191135
+62.24.181.135 0 20 653077 
+202.46.54.57 3 3 483790 20140429055937
+54.80.46.47 1 1 29283 20140419052544
+93.80.252.223 1 39 1548836 20140415025705
+41.235.149.219 68 165 2023973 20140427193246
+213.141.23.110 147 354 3016965 20140422132620
+109.110.92.47 1 1 26803 20140426221300
+93.180.192.161 3 101 2048269 20140426221715
+54.80.28.240 1 1 26522 20140404121843
+200.77.87.234 74 300 2238420 20140405224923
+77.120.148.35 4 102 2001750 20140430175729
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20140401 1453 2407 19171573 38
+20140402 843 1640 23893141 39
+20140403 827 2269 36628962 42
+20140404 1212 1934 192904026 36
+20140405 201 1279 29705680 40
+20140406 514 1185 63012854 36
+20140407 136 1034 26074259 42
+20140408 2005 3578 36311972 40
+20140409 980 1940 20069872 42
+20140410 904 1554 17987516 37
+20140411 2449 3942 27710946 44
+20140412 2331 2757 15331277 33
+20140413 4581 5625 26575386 42
+20140414 4283 4997 20026699 42
+20140415 2977 3589 22599629 36
+20140416 3334 3636 15256361 37
+20140417 4438 6657 26791141 37
+20140418 3758 6354 25824272 42
+20140419 3466 6900 43654125 49
+20140420 3004 4071 24105333 33
+20140421 3645 4690 20807259 34
+20140422 3849 5506 40341211 42
+20140423 4533 5185 17630325 32
+20140424 4192 4856 17588053 32
+20140425 4102 9604 28162637 42
+20140426 4632 11016 119007271 95
+20140427 5931 8035 38038854 48
+20140428 5353 7050 41285569 49
+20140429 5823 7692 47995884 42
+20140430 5195 6705 40684111 55
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 94
+5mn-15mn 36
+15mn-30mn 28
+2mn-5mn 38
+30s-2mn 70
+0s-30s 970
+30mn-1h 22
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 949
+/async-getNotificationList.php 80990 29178957 76 222
+/async-getLocationInfo.php 2271 9703139 2 15
+/ 1521 154840140 1068 834
+/async-getCategoryLocationInfo.php 1038 2959079 1 13
+/async-getNewsListByCategory.php 786 901027 0 4
+/async-getNewPlanTripId.php 581 214437 1 87
+/async-getLocationTitle.php 445 198326 0 0
+/async-getLocationInfoByIds.php 189 2230848 0 2
+/async-uploadImage.php 147 66558 0 1
+/addPlace 113 7996628 54 25
+/places/Bejsbol/ 2 213150 0 0
+/wiki/Herman_G._Steiner 1 186696 0 0
+/wiki/Post_office 1 186642 0 0
+/wiki/Asian_(U.S._Census) 1 186714 0 0
+/wiki/Springfield,_Massachusetts 1 186777 0 0
+/wiki/Political_divisions_of_the_United_States 1 186903 0 0
+/admin/newsCategoryDetail.php 51 119594 0 0
+/wiki/Golden_Gate_University 1 186741 0 0
+/places/Prirodnye-osobennosti/ 2 213296 0 0
+/blogs/category/4523530798360029015 1 186804 0 0
+/wiki/YMCA_(song) 1 186642 0 0
+/wiki/John_Mott 1 186624 0 0
+/async-savePlanTrip.php 1 367 0 0
+/wiki/Melrose,_Massachusetts 1 186741 0 0
+/wiki/Pacific_Islander_(U.S._Census) 1 186813 0 0
+/wiki/Ocean_Island_Inn 1 186687 0 0
+/wiki/Volleyball_Hall_of_Fame 1 186750 0 0
+/wiki/Native_American_(U.S._Census) 1 186804 0 0
+/group/ISTORIYa/Ng== 7 690732 0 0
+/wiki/Scotland 1 186615 0 0
+/wiki/Wikipedia:File_Upload_Wizard 1 186795 0 0
+/blogs/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/Ng== 2 223075 0 0
+/places/Prirodnye-osobennosti/ODc= 5 616966 0 0
+/newsCategory/2212094865489116743 1 186782 0 0
+/wiki/African_American_(U.S._Census) 1 186813 0 0
+/async-getGuideBucketLocation.php 18 6534 0 2
+/wiki/Fall_River,_Massachusetts 1 186768 0 0
+/wiki/Monkeyman_and_O%27Brien 1 186746 0 0
+/places/Muzei/ 1 186624 0 0
+/eyeCategory/Nebesnyj-glaz/5815127222867932038 1 186899 0 0
+/wiki/Springfield_College 1 186714 0 0
+/places/Futbol/ 1 186633 0 0
+/group/POKUPKI/3279221890189537070 1 186804 0 0
+/wiki/Paul_Azinger 1 186651 0 0
+/wiki/1900_United_States_Census 1 186768 0 0
+/img/profile/7965937999669224617 1 186652 0 0
+/group/PROZhIVANIE/7257083105664127239 1 186840 0 0
+/wiki/Category:Holyoke,_Massachusetts 1 186822 0 0
+/places/Bezopasnost-&-Zaschita/NTM= 5 616911 0 0
+/wiki/Value_system 1 186651 0 0
+/wiki/Harvard_University 1 186705 0 0
+/places/Tatu-salony/NzA= 6 642856 0 0
+/group/PRIRODA/4437561599722587969 1 186804 0 0
+/wiki/Avdat 1 186588 0 0
+/wiki/Dukes_County,_Massachusetts 1 186786 0 0
+/wiki/Blandford_(CDP),_Massachusetts 1 186813 0 0
+/places/Meditsina/NjA= 5 615949 0 0
+/group/RAZVLEChENIYa/MTA= 5 616243 0 0
+/js/highcharts/115141005680762857 1 186661 0 0
+/wiki/University_of_Massachusetts 1 186786 0 0
+/wiki/YMCA_Stadium 1 186651 0 0
+/wiki/Accenture 1 186624 0 0
+/news/Ubijstvo-v-okruzhnom-ispolkome/NDQy 1 35622 0 0
+/wiki/Holy_Office 1 186642 0 0
+/wiki/Agawam,_Massachusetts 1 186732 0 0
+/places/Vodnyj-sport/OTM= 5 616243 0 0
+/wiki/Korea 1 186588 0 0
+/async-signOut.php 2 1682 0 0
+/eyeCategory/Eye-Music/Mg== 6 803292 1 1
+/wiki/Weymouth,_Massachusetts 1 186750 0 0
+/wiki/Medford,_Massachusetts 1 186741 0 0
+/async-searchLocationOnGoogleMap.php 65 220055 0 0
+/admin/eyeCategoryDetail.php 5 11782 0 0
+/wiki/American_culture 1 186687 0 0
+/async-getNewsCategoryInfo.php 16 10531 0 0
+/places/Telefony/ 2 213160 0 0
+/wiki/Category:Articles_with_dead_external_links_from_July_2012 1 187056 0 0
+/wiki/Physical_Education 1 186705 0 0
+/wiki/Per_capita_income 1 186696 0 0
+/w/index.php 98 18324834 0 0
+/places/Sport-&-Razvlecheniya/Njg= 6 643494 0 0
+/img/profile/6731068636533247206 1 186652 0 0
+/wiki/Special:RecentChangesLinked/William_G._Morgan 1 186948 0 0
+/places/Odezhda-&-Obuv/ 1 186705 0 0
+/wiki/Rick_Purcell 1 186651 0 0
+/wiki/Geneva 1 186597 0 0
+/eyeCategory/1348070545977890540 1 186773 0 0
+/wiki/Holyoke_Canal_System 1 186723 0 0
+/places/Ozera-&-Lesa/ 1 186687 0 0
+/wiki/Swimming_lessons 1 186687 0 0
+/places/Bejsbol/OTE= 5 615870 0 0
+/places/Bary-&-Paby/MjI= 6 803638 0 0
+/places/Golf/MTA4 5 615652 0 0
+/blogs/Blog-Test-Jeni-012222/2739910517324651524 1 186921 0 0
+/places/Muzykalnye-instrumenty/NjE= 5 617068 0 0
+/wiki/Category:Articles_using_fixed_number_of_columns_in_reflist 1 187065 0 0
+/wiki/Help:CS1_errors 1 186678 0 0
+/group/ISTORIYa/5405088806912176910 1 186813 0 0
+/blogs/Origin-of-volleyball/Mw== 1 201733 0 0
+/wiki/Khan_al-Umdan 1 186660 0 0
+/wiki/History_of_Massachusetts 1 186759 0 0
+/blogs/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/4202497901875460946 1 187128 0 0
+/wiki/Northeast_blackout_of_1965 1 186777 0 0
+/admin/async-deleteNews.php 1 349 0 0
+/wiki/Respect 1 186606 0 0
+/wiki/The_Berkshires 1 186669 0 0
+/eyeCategory/4856770215351091702 1 186773 0 0
+/js/highcharts/587959750677362486 1 186661 0 0
+/places/Drugie/NTE= 6 642734 0 0
+/wiki/Ami%27ad 1 186611 0 0
+/wiki/Wilbraham,_Massachusetts 1 186759 0 0
+/wiki/Diving_instructor 1 186696 0 0
+/wiki/Holyoke_(disambiguation) 1 186759 0 0
+/wiki/South_Shore_(Massachusetts) 1 186786 0 0
+/wiki/Neoclassical_architecture 1 186768 0 0
+/places/Zootovary/ 2 213163 1 0
+/eyeCategory/Eye-Science/8644238480998166688 1 186881 0 0
+/wiki/Jumbohostel 1 186642 0 0
+/news/ 2 213117 0 0
+/places/Ledovye-areny/MTEy 5 616311 0 0
+/wiki/YMCA_Youth_and_Government 1 186768 0 0
+/wiki/Holyoke_School_Department 1 186768 0 0
+/blogs/Blog-Test-Jeni-012222/NQ== 2 222673 0 0
+/wiki/Nobel_Peace_Prize 1 186696 0 0
+/places/Drugoj-sport/ 2 213196 0 0
+/wiki/Category:CS1_errors:_dates 1 186777 0 0
+/wiki/List_of_census-designated_places_in_Massachusetts 1 186984 0 0
+/places/Sport-&-Razvlecheniya/ 1 186768 0 0
+/wiki/Poverty_line 1 186651 0 0
+/wiki/Esprit_Lodge 1 186651 0 0
+/wiki/Library_and_Archives_Canada 1 186786 0 0
+/locations/cvnv/NTE4 2 58722 0 0
+/wiki/Toronto_Star 1 186651 0 0
+/wiki/Christian_values 1 186687 0 0
+/wiki/Special:RecentChanges 1 186732 0 0
+/wiki/1860_United_States_Census 1 186768 0 0
+/places/Ekstrimalnyj-sport/MTIw 5 616727 0 0
+/wiki/World_Council_of_Churches 1 186768 0 0
+/wiki/Daylight_saving_time 1 186723 0 0
+/locations/result/ 2 52913 1 0
+/wiki/Disciple_(Christianity) 1 186750 0 0
+/places/Arkhitektura/ 1 186687 0 0
+/wiki/Hampshire_County,_Massachusetts 1 186822 0 0
+/wiki/Wilbraham_(CDP),_Massachusetts 1 186813 0 0
+/wiki/Massachusetts_Institute_of_Technology 1 186876 0 0
+/wiki/Emory_University 1 186687 0 0
+/wiki/Vermont 1 186606 0 0
+/wiki/Springfield,_Massachusetts_metropolitan_area 1 186939 0 0
+/places/Golf/ 2 213115 0 0
+/wiki/Khan_al-Tujjar_(Mount_Tabor) 1 186795 0 0
+/wiki/USO 1 186570 0 0
+/wiki/Newburyport,_Massachusetts 1 186777 0 0
+/wiki/Geographic_Names_Information_System 1 186858 0 0
+/places/Plyazhi/ 1 186642 0 0
+/wiki/Gerry_Geran 1 186642 0 0
+/places/Knigi-&-Muzyka/NTY= 5 616358 0 0
+/wiki/Embroidery 1 186633 0 0
+/places/Podarki-&-Suveniry/ 2 213263 0 0
+/wiki/Education_in_Massachusetts 1 186777 0 0
+/wiki/Category:Christian_missions 1 186786 0 0
+/wiki/George_Williams_(YMCA) 1 186741 0 0
+/wiki/Mount_Tom_Range 1 186678 0 0
+/async-getPlanTripLocationList.php 14 9527 0 1
+/wiki/Camp_Dudley 1 186642 0 0
+/wiki/Randolph,_Massachusetts 1 186750 0 0
+/wiki/Attleboro,_Massachusetts 1 186759 0 0
+/wiki/Amesbury,_Massachusetts 1 186750 0 0
+/places/Restorany/NDE= 6 803529 0 1
+/wiki/Category:Massachusetts_culture 1 186813 0 0
+/async-facebookSignIn.php 9 7692 0 0
+/wiki/Enfield_Falls 1 186660 0 0
+/texteditor/ 1 3093 0 0
+/blogs/category/Mw== 6 639966 0 0
+/wiki/Boise,_Idaho 1 186651 0 0
+/wiki/Outline_of_Massachusetts 1 186759 0 0
+/places/Natsionalnye-parki/ 2 213266 0 0
+/wiki/The_Islands_(Massachusetts) 1 186786 0 0
+/wiki/Hal_Holbrook 1 186651 0 0
+/places/Seks-shopy/ 2 213176 0 0
+/wiki/Henry_Dunant 1 186651 0 0
+/places/Knigi-&-Muzyka/ 2 213216 0 0
+/wiki/Sports_in_Massachusetts 1 186750 0 0
+/administrator 1 186615 0 0
+/wiki/Lowell,_Massachusetts 1 186732 0 0
+/wiki/Greenwood_Publishing_Group 1 186777 0 0
+/places/Tovary-dlya-detej/NzM= 6 643335 0 0
+/wiki/St._Patrick%27s_Day 1 186710 0 0
+/wiki/Bridgewater,_Massachusetts 1 186777 0 0
+/wiki/Westfield,_Massachusetts 1 186759 0 0
+/places/Restorany/ 2 213166 0 0
+/wiki/UTC-5 1 186588 0 0
+/async-getPlacesDetailInfo.php 9 71158 0 0
+/wiki/Cheerleading 1 186651 0 0
+/wiki/Category:1870_births 1 186723 0 0
+/css/1970240268044535783 1 186580 0 0
+/wiki/Victory_Theater_(Holyoke,_Massachusetts) 1 186903 0 0
+/places/Bary-&-Paby/ 2 213182 0 0
+/newsCategory/Mirovye/5320373860733749207 1 186854 0 0
+/wiki/1910_United_States_Census 1 186768 0 0
+/wiki/Tolland,_Massachusetts 1 186741 0 0
+/places/Kompyutery/ 2 213172 0 0
+/wiki/1870_United_States_Census 1 186768 0 0
+/wiki/World_Student_Christian_Federation 1 186849 0 0
+/wiki/National_Hockey_League 1 186741 0 0
+/wiki/Template_talk:Hampden_County,_Massachusetts 1 186930 0 0
+/places/Produkty-pitaniya-napitki/ 2 213321 0 0
+/wiki/Water_polo 1 186633 0 0
+/eyeCategory/Eye-Music/5794082197634661157 1 186863 0 0
+/news/V-Nikolaevskoj-oblasti-proshli-samye-masshtabnye-za-desyat-let-voennye-ucheniya-)-OBNOVLENA!/NTEz 1 29593 0 0
+/wiki/Montreal 1 186615 0 0
+/wiki/Connecticut_River_Valley 1 186759 0 0
+/places/universe/Mjg= 1 26659 1 0
+/wiki/Category:Visitor_attractions_in_Massachusetts 1 186948 0 0
+/wiki/Methuen,_Massachusetts 1 186741 0 0
+/admin/eyeCategoryList.php 7 16275 0 0
+/places/Meditsina/ 2 213164 0 0
+/wiki/New_England_Collegiate_Baseball_League 1 186885 0 0
+/wiki/Southbridge,_Massachusetts 1 186777 0 0
+/places/Velosport/OTI= 6 807176 0 0
+/admin/async-getLocationInfoFromAddress.php 1 398 0 0
+/places/Avtozapchasti/ 2 213202 0 0
+/wiki/Jazz_Hostels 1 186651 0 0
+/wiki/Franklin,_Massachusetts 1 186750 0 0
+/places/Mestnaya-istoriya/NDY= 6 643511 0 0
+/locations/result/NDMw 2 57694 2 2
+/wiki/EMC_Corporation 1 186678 0 0
+/places/Morskaya-pischa/Mzg= 6 803961 0 0
+/wiki/Paper_mill 1 186633 0 0
+/async-getPlanTripDetailInfo.php 18 491516 0 0
+/wiki/Polish_YMCA 1 186642 0 0
+/wiki/Portal:Christianity 1 186714 0 0
+/places/Karting/ 1 186642 0 0
+/places/Drugie/ 2 213132 0 0
+/wiki/Wales 1 186588 0 0
+/wiki/Judeo-Christian 1 186678 0 0
+/wiki/Textile 1 186606 0 0
+/wiki/Alternative_high_school 1 186750 0 0
+/wiki/Michigan_State_University_College_of_Law 1 186903 0 0
+/places/Zapovedniki/ODA= 4 589479 0 0
+/wiki/Nova_Scotia 1 186642 0 0
+/wiki/Palmer,_Massachusetts 1 186732 0 0
+/places/Rybalka-&-Okhota/ 2 213234 0 0
+/wiki/Globalization 1 186660 0 0
+/wiki/Go_(Holmes_novel) 1 186696 0 0
+/places/Tovary-dlya-detej/ 1 186732 0 0
+/places/Monumenty/NDc= 6 642708 0 0
+/wiki/Cave_diving 1 186642 0 0
+/wiki/Rhode_Island_College 1 186723 0 0
+/wiki/Ludlow,_Massachusetts 1 186732 0 0
+/googlec7e3587e93bced11.html 1 355 1 1
+/wiki/Latino_(U.S._Census) 1 186723 0 0
+/places/Literatura/NDU= 5 616067 0 0
+/places/Zimnij-sport/ 2 213197 0 0
+/places/Tennis/MTE3 5 615753 0 0
+/wiki/Category:Articles_containing_potentially_dated_statements_from_2007 1 187146 0 0
+/places/Samolety-Poezda-Avtomobili/ 2 213329 0 0
+/group/EDA-&-NAPITKI/5944865870349792899 1 186858 0 0
+/group/SPORT/MTE= 7 890781 1 1
+/wiki/Arthur_Adams_(comics) 1 186732 0 0
+/blogs/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/7614217631102577454 1 187128 0 0
+/wiki/Category:Use_British_English_from_October_2012 1 186957 0 0
+/group/ISTORIYa/6300925972281091858 1 186813 0 0
+/wiki/University_of_Birmingham 1 186759 0 0
+/wiki/Palmer_(CDP),_Massachusetts 1 186786 0 0
+/texteditor/assetmanager/asset.php 1 2975 0 0
+/newsCategory/Mirovye/3987271108072372239 1 186854 0 0
+/wiki/Telephone_numbering_plan 1 186759 0 0
+/wiki/Transportation_in_Massachusetts 1 186822 0 0
+/wiki/Holland,_Massachusetts 1 186741 0 0
+/places/Drugoj-sport/MTIx 5 616226 0 0
+/wiki/Cisco_Systems 1 186660 0 0
+/places/Remont-&-Santekhnika/NjU= 5 616767 0 0
+/wiki/Sidna_Ali_Mosque 1 186687 0 0
+/wiki/Holland_House,_London 1 186732 0 0
+/wiki/Massachusetts_government 1 186759 0 0
+/wiki/Category:1942_deaths 1 186723 0 0
+/wiki/Massachusetts_Green_High_Performance_Computing_Center 1 187020 0 0
+/news/result/MTIx 2 53868 0 0
+/wiki/Hostelling_International_USA 1 186795 0 0
+/places/Plyazhi/ODY= 5 615777 0 0
+/places/Fast-food/NDM= 6 803230 0 0
+/group/7155288443307989207 1 186732 0 0
+/wiki/Atlanta_Braves 1 186669 0 0
+/eyeCategory/Nebesnyj-glaz/MQ== 7 995155 1 1
+/wiki/Template_talk:Massachusetts 1 186786 0 0
+/async-getLocationInfoFromAddress.php 10 15984 0 0
+/wiki/Middlesex_County,_Massachusetts 1 186822 0 0
+/wiki/East_Longmeadow,_Massachusetts 1 186813 0 0
+/wiki/North_Adams,_Massachusetts 1 186777 0 0
+/admin/newsCategoryList.php 58 150612 0 0
+/trips/NDcwNg== 4 106160 0 0
+/async-getUserBucketList.php 1 522 0 0
+/wiki/Carbisdale_Castle 1 186696 0 0
+/wiki/Special:Random 1 186669 0 0
+/wiki/Khan_al-Tujjar_(Nablus) 1 186750 0 0
+/wiki/YHA_Australia 1 186660 0 0
+/wiki/Pittsfield,_Massachusetts 1 186768 0 0
+/wiki/1990_United_States_Census 1 186768 0 0
+/wiki/Bible_study_(Christian) 1 186750 0 0
+/wiki/North_County_(Massachusetts) 1 186795 0 0
+/wiki/Marriage 1 186615 0 0
+/wiki/Template:Hostels 1 186687 0 0
+/wiki/Berkshire_County,_Massachusetts 1 186822 0 0
+/wiki/Chester_(CDP),_Massachusetts 1 186795 0 0
+/wiki/Weight_room 1 186642 0 0
+/wiki/Taunton,_Massachusetts 1 186741 0 0
+/locations/Music-11/Mzcz 1 29026 0 0
+/group/SPORT/3630104013386180341 1 186786 0 0
+/sample-page/ 10 1874437 10 3
+/newsCategory/DTP/Ng== 1 27098 0 0
+/wiki/Category:Organizations_established_in_1844 1 186921 0 0
+/places/Tennis/ 1 186633 0 0
+/lib/fckeditor/editor/filemanager/upload/test.html 1 189321 1 1
+/places/Sladkoezhka/NDI= 5 616119 0 0
+/blogs/Football-From-Wikipedia-the-free-encyclopedia/124802632146522611 1 187128 0 0
+/wiki/Japanese-American 1 186696 0 0
+/css/1850227528298379364 1 186580 0 0
+/places/Tovary-dlya-doma-&-sada/ 1 186786 0 0
+/places/Sladkoezhka/ 2 213183 0 0
+/async-getGuideTripLocation.php 9 3267 0 1
+/newsCategory/Mirovye/Mg== 7 990900 2 2
+/places/Odezhda-&-Obuv/NjI= 7 834303 0 0
+/places/Foto/ 2 213117 0 0
+/wiki/Birdoswald 1 186633 0 0
+/wiki/YMCA_of_Greater_New_York 1 186759 0 0
+/group/PRIRODA/2303624253300521952 1 186804 0 0
+/wiki/Niagara_Hostel 1 186669 0 0
+/wiki/Salem,_Massachusetts 1 186723 0 0
+/wiki/Blandford,_Massachusetts 1 186759 0 0
+/admin/userDetail.php 35 87435 0 0
+/wiki/Boston_YMCA 1 186642 0 0
+/places/Chasy-ochki/ 2 213191 0 0
+/wiki/English_as_an_additional_language 1 186840 0 0
+/wiki/Metacomet-Monadnock_Trail 1 186768 0 0
+/async-signIn.php 1 397 0 0
+/wiki/Category:YMCA 1 186660 0 0
+/wiki/Wales,_Massachusetts 1 186723 0 0
+/wiki/Monson_Center,_Massachusetts 1 186795 0 0
+/places/Yuvelirnye-izdeliya/Nzk= 5 616718 0 0
+/wiki/Holistic 1 186615 0 0
+/wiki/Plymouth_County,_Massachusetts 1 186813 0 0
+/group/INFRASTRUKTURA/5679692869238868875 1 186867 0 0
+/wiki/Boy_Scouts_of_America 1 186732 0 0
+/wiki/Service_of_worship 1 186705 0 0
+/wiki/Special:WhatLinksHere/William_G._Morgan 1 186894 0 0
+/wiki/Kautz_Family_YMCA_Archives 1 186777 0 0
+/wiki/Marlborough,_Massachusetts 1 186777 0 0
+/eye/ 2 213104 0 0
+/locations/Lviv-is-the-best/MzU3 8 232392 8 8
+/wiki/Massachusetts%27s_congressional_districts 1 186908 0 0
+/placesList 5 773477 1 1
+/places/Basketbol/ 2 213170 0 0
+/wiki/Youth_Hostels_Association_of_India 1 186849 0 0
+/async-addNewLocation.php 22 8026 0 0
+/places/Parki-&-Sady/ 2 213200 0 0
+/wiki/Hartington_Hall 1 186678 0 0
+/wiki/Basketball 1 186633 0 0
+/async-getDistanceDuration.php 73 48926 0 1
+/wiki/Baden-Powell_House 1 186705 0 0
+/admin/async-deleteNewsCategory.php 3 1047 0 0
+/places/Stadiony/ 2 213154 0 0
+/wiki/Houston 1 186606 0 0
+/wiki/New_Bedford,_Massachusetts 1 186777 0 0
+/places/Ozera-&-Lesa/ODM= 6 642936 0 0
+/blogs/For-the-ball-used-in-the-sport-see-Basketball-(ball)-For-other-uses-see-Basketball-(disambiguation)-/120317134872868813 1 187623 0 0
+/wiki/Category:Hostels 1 186687 0 0
+/wiki/St._Louis,_Missouri 1 186714 0 0
+/wiki/Category:American_volleyball_players 1 186867 0 0
+/places/Bassejny/ 1 186651 0 0
+/wiki/County_seat 1 186642 0 0
+/wiki/New_Jersey 1 186633 0 0
+/wiki/Dick_Burns 1 186633 0 0
+/wiki/Ottawa_Jail_Hostel 1 186705 0 0
+/wiki/Template_talk:Hostels 1 186732 0 0
+/wiki/Bondsville,_Massachusetts 1 186768 0 0
+/wiki/Brothels 1 186615 0 0
+/async-getLocationInfoByReference.php 21 37123 0 0
+/eyeCategory/Eye-Music/2867083775891199019 1 186863 0 0
+/group/PROZhIVANIE/OQ== 5 616173 0 0
+/admin/async-saveEyeCategory.php 1 349 0 0
+/group/INFRASTRUKTURA/8910859887198375569 1 186867 0 0
+/wiki/Essex_County,_Massachusetts 1 186786 0 0
+/wiki/Holyoke_Mall_at_Ingleside 1 186768 0 0
+/wiki/Geographic_coordinate_system 1 186795 0 0
+/wiki/Futsal 1 186597 0 0
+/wiki/Edgar_M._Robinson 1 186696 0 0
+/wiki/Holyoke,_Massachusetts 1 186741 0 0
+/places/ 2 213079 0 0
+/places/Fast-food/ 2 213157 0 0
+/places/Samolety-Poezda-Avtomobili/NTA= 6 808925 0 0
+/wiki/Template:Massachusetts 1 186741 0 0
+/places/Nauka/ 2 213131 0 0
+/wiki/Boston_Associates 1 186696 0 0
+/places/Bytovaya-tekhnika/NTQ= 5 616518 0 0
+/wiki/Ampad 1 186588 0 0
+/wiki/Wikipedia:General_disclaimer 1 186795 0 0
+/async-getEyeInfoByIds.php 7 17962 0 0
+/locations/Location-Test-01/NDcz 1 29114 0 0
+/wiki/Lake_Champlain 1 186669 0 0
+/wiki/Cambridge,_Massachusetts 1 186759 0 0
+/places/Futbol/MTE5 6 642436 0 0
+/wiki/Longmeadow,_Massachusetts 1 186768 0 0
+/newsCategory/Kriminal/NQ== 1 26995 0 0
+/wiki/Montevideo 1 186633 0 0
+/wiki/1993_PGA_Championship 1 186732 0 0
+/places/Nauka/NDk= 5 615698 0 0
+/blogs/7165189499727276594 1 186723 0 0
+/wiki/South_County_(Massachusetts) 1 186795 0 0
+/async-setLanguage.php 51 21216 0 0
+/wiki/Volleyball 1 186633 0 0
+/locations/Ostrov/NDY0 2 53626 0 0
+/wiki/Oaxtepec 1 186615 0 0
+/places/Antikvariat/ 1 186678 0 0
+/places/Basketbol/ODk= 6 642740 0 0
+/wiki/Chester,_Massachusetts 1 186741 0 0
+/img/3610320237693617729 1 186580 0 0
+/locations/jtsukengshschzkhjifivaproldzheyachsmitbyu-je/NDM2 1 35247 0 0
+/wiki/Concordia_University_(Montreal) 1 186822 0 0
+/wiki/United_States_Army 1 186705 0 0
+/wiki/Summer_camp 1 186642 0 0
+/places/Mebel-&-Furnitura/ 1 186732 0 0
+/admin/newsDetail.php 28 87132 0 0
+/wiki/Wikipedia:Verifiability 1 186750 0 0
+/img/category/2967225703196519479 1 186661 0 0
+/wiki/Montgomery,_Massachusetts 1 186768 0 0
+/places/Voennaya-istoriya/ 1 186732 0 0
+/wiki/Category:Populated_places_on_the_Connecticut_River 1 186993 0 0
+/places/Peshij-turizm/ 2 213211 0 0
+/wiki/State_legislature_(United_States) 1 186840 0 0
+/wiki/Eva_Tanguay 1 186642 0 0
+/async-getGroupDetailInfo.php 1 3066 0 0
+/wiki/An_%C3%93ige 1 186643 0 0
+/wiki/Prayer_meeting 1 186669 0 0
+/wiki/Lucille_Ball 1 186651 0 0
+/wiki/Category:Commons_category_template_with_no_category_set 1 187038 0 0
+/wiki/Ojibwa 1 186597 0 0
+/wiki/Population_density 1 186705 0 0
+/wiki/Barnstable_County,_Massachusetts 1 186831 0 0
+/async-savePlace.php 2 848 0 0
+/places/Torgovye-tsentry/NzU= 5 616552 0 0
+/wiki/Northampton,_Massachusetts 1 186777 0 0
+/wiki/Apartheid 1 186624 0 0
+/blogs/category/NA== 7 835016 1 2
+/wiki/Concho_River 1 186651 0 0
+/wiki/Nantucket 1 186624 0 0
+/places/Zooparki/ 2 213159 0 0
+/wiki/YMCA_University_of_Science_and_Technology 1 186912 0 0
+/admin/async-savePermission.php 2 698 0 0
+/wiki/Mount_Tom_(Massachusetts) 1 186768 0 0
+/places/Rybalka-&-Okhota/MTE0 5 616472 0 0
+/group/EDA-&-NAPITKI/NQ== 7 855694 0 0
+/wiki/Hispanic_(U.S._Census) 1 186741 0 0
+/wiki/United_States 1 186660 0 0
+/wiki/New_England 1 186642 0 0
+/wiki/Hostel 1 186597 0 0
+/wiki/New_York_City 1 186660 0 0
+/wiki/Scottish_Youth_Hostels_Association 1 186849 0 0
+/places/Volejbol/MTA3 5 615931 0 0
+/wiki/Muscular_Christianity 1 186732 0 0
+/wiki/Category:Cities_in_Hampden_County,_Massachusetts 1 186975 0 0
+/locations/Kak-ya-pobyval-na-Lune/NDM3 1 29258 0 0
+/wiki/International_Committee_of_the_Red_Cross 1 186903 0 0
+/locations/Pravyj-sektor/ 2 373268 0 1
+/wiki/Duke_University 1 186678 0 0
+/wiki/Wikipedia:Persondata 1 186723 0 0
+/wiki/Holyoke_Merry-Go-Round 1 186741 0 0
+/wiki/American_Academy_of_Underwater_Sciences 1 186894 0 0
+/wiki/Lawrence,_Massachusetts 1 186750 0 0
+/wiki/Jack_Buck 1 186624 0 0
+/index.php 21 3926373 0 0
+/newsCategory/5701820896887534626 1 186782 0 0
+/places/Sportivnye-kluby/ 1 186723 0 0
+/places/Tatu-salony/ 1 186678 0 0
+/wiki/Longshot 1 186615 0 0
+/places/Kompyutery/NTc= 6 643046 0 0
+/wiki/World_Alliance_of_YMCAs 1 186750 0 0
+/trips/NDU1NQ== 3 79369 1 0
+/news/fsdfsdf-)/NTE5 1 28924 0 0
+/places/Zavody/ 1 186633 0 0
+/wiki/Frances_Gulick 1 186669 0 0
+/places/Elektrooborudovanie/ 2 213277 0 0
+/admin/async-deleteUser.php 2 698 0 1
+/wiki/Economy_of_Massachusetts 1 186759 0 0
+/wiki/Census 1 186597 0 0
+/wiki/Watertown,_Massachusetts 1 186759 0 0
+/newsCategory/Armiya/Mw== 4 271998 0 0
+/wiki/Area_code_413 1 186660 0 0
+/wiki/Thessaloniki 1 186651 0 0
+/wiki/Cape_Cod 1 186615 0 0
+/wiki/Quincy,_Massachusetts 1 186732 0 0
+/wiki/Beverly,_Massachusetts 1 186741 0 0
+/wiki/Nazi_Party 1 186633 0 0
+/wiki/Fitchburg,_Massachusetts 1 186759 0 0
+/wiki/TUXIS 1 186588 0 0
+/wiki/Metacomet_Ridge 1 186678 0 0
+/places/Sportivnye-kluby/MTE1 5 616550 0 0
+/wiki/Moncton 1 186606 0 0
+/wiki/A_Bright_Shining_Lie:_John_Paul_Vann_and_America_in_Vietnam 1 187074 0 0
+/wiki/1980_United_States_Census 1 186768 0 0
+/wiki/Physical_fitness 1 186687 0 0
+/wiki/Index_of_Massachusetts-related_articles 1 186894 0 0
+/async-savedPlanTrip.php 1 1941 0 0
+/wiki/Cape_Ann 1 186615 0 0
+/admin/categoryList.php 11 29257 0 0
+/wiki/Fitness_centre 1 186669 0 0
+/async-getNewsInfoByIds.php 59 200960 0 0
+/wiki/East_Lansing,_Michigan 1 186741 0 0
+/wiki/Category:Articles_with_dead_external_links_from_October_2012 1 187083 0 0
+/blogs/Football-From-Wikipedia-the-free-encyclopedia/MQ== 2 232396 0 0
+/wiki/List_of_villages_in_Massachusetts 1 186840 0 0
+/wiki/Gloucester,_Massachusetts 1 186768 0 0
+/wiki/Help:Category 1 186660 0 0
+/news/V-Nikolaevskoj-oblasti-proshli-samye-masshtabnye-za-desyat-let-voennye-ucheniya/NTEz 1 29853 0 0
+/wiki/Woburn,_Massachusetts 1 186732 0 0
+/wiki/Windsor,_Connecticut 1 186723 0 0
+/newsList 4 586639 0 0
+/places/Bassejny/OTA= 6 642667 0 0
+/wiki/State_University_of_New_York_at_Stony_Brook 1 186930 0 0
+/wiki/MLB 1 186570 0 0
+/places/Elektrooborudovanie/Nzg= 5 616857 0 0
+/js/8532592686815163514 1 186571 0 0
+/wiki/Category:All_articles_needing_additional_references 1 187002 0 0
+/places/Natsionalnye-parki/ODI= 5 616720 0 0
+/wiki/UTC-4 1 186588 0 0
+/eye/-jtsukengshschzkhjifivaproldzheyachsmitbyu-je/NDY5 11 321219 7 5
+/wiki/Newton,_Massachusetts 1 186732 0 0
+/wiki/POW 1 186570 0 0
+/wiki/Barrow_House,_Cumbria 1 186732 0 0
+/wiki/Greenhead,_Northumberland 1 186768 0 0
+/wp-login.php 1 186606 0 0
+/wiki/Pickle_ball 1 186642 0 0
+/wiki/Boston_University 1 186696 0 0
+/wiki/Holyoke_Blue_Sox 1 186687 0 0
+/group/RAZVLEChENIYa/2383816356249338381 1 186858 0 0
+/wiki/William_Fairfield_Whiting 1 186768 0 0
+/wiki/1970_United_States_Census 1 186768 0 0
+/wiki/Brimfield,_Massachusetts 1 186759 0 0
+/wiki/Jerome_Connor 1 186660 0 0
+/wiki/Category:Youth_development_organizations 1 186903 0 0
+/blogs/Origin-of-volleyball/4575602886994259808 1 186912 0 0
+/wiki/World_War_II 1 186651 0 0
+/places/Konnyj-sport/MTEx 6 642927 0 0
+/group/6089504634380202245 1 186732 0 0
+/wiki/White_(U.S._Census) 1 186714 0 0
+/wiki/Portal:Switzerland 1 186705 0 0
+/admin/permissionDetail.php 9 21269 0 0
+/wiki/British_Mandate_of_Palestine 1 186795 0 0
+/wiki/Youth_Hostels_Association_(England_%26_Wales) 1 186944 0 0
+/wiki/Bob_Hope 1 186615 0 0
+/wiki/Verband_Christlicher_Pfadfinderinnen_und_Pfadfinder 1 187002 0 0
+/wiki/Scuba_diving 1 186651 0 0
+/wiki/City 1 186579 0 0
+/wiki/Detroit_College_of_Law 1 186741 0 0
+/places/Voennaya-istoriya/NDQ= 5 616517 0 0
+/admin/async-saveNewsCategory.php 55 19195 0 0
+/newsCategory/Natsionalnye-novosti/MQ== 8 858204 1 1
+/wiki/Russell_(CDP),_Massachusetts 1 186795 0 0
+/wiki/David_E._Sweet 1 186669 0 0
+/wiki/Chicopee,_Massachusetts 1 186750 0 0
+/wiki/Special:RecentChangesLinked/Holyoke,_Massachusetts 1 186993 0 0
+/places/Kafeterii/Mzc= 7 830210 0 0
+/wiki/Revere,_Massachusetts 1 186732 0 0
+/places/Antikvariat/NTI= 6 642849 0 0
+/wiki/Hostelling_International_%E2%80%93_Canada 1 186900 0 0
+/wiki/Westport,_New_York 1 186705 0 0
+/wiki/Billy_Mitchell_(gamer) 1 186741 0 0
+/wiki/Man_of_the_House_(1995_film) 1 186795 0 0
+/img/eye/2445542374524758404 1 186616 0 0
+/wiki/William_Whiting_II_(politician) 1 186822 0 0
+/myPlaces 5 613221 0 0
+/ipn.php 1 459 0 0
+/wiki/Metropolitan_State_University 1 186804 0 0
+/wiki/List_of_towns_in_Massachusetts 1 186813 0 0
+/wiki/Feeding_Hills,_Agawam,_Massachusetts 1 186867 0 0
+/wiki/Big_Cove_YMCA_Camp 1 186705 0 0
+/places/Avtosport/ 2 213170 0 0
+/wiki/Time_zone 1 186624 0 0
+/js/8251506062162440799 1 186571 0 0
+/wiki/Wikipedia:Community_portal 1 186777 0 0
+/wiki/YMCA_(disambiguation) 1 186732 0 0
+/wiki/YMCA 1 186579 0 0
+/wiki/Paris_Basis 1 186642 0 0
+/wiki/Braeswood_Place 1 186678 0 0
+/places/Konnyj-sport/ 2 213198 0 0
+/img/eye/7835200968950839572 1 186616 0 0
+/wiki/Holyoke_Mall 1 186651 0 0
+/wiki/Exposition_Universelle_(1855) 1 186804 0 0
+/wiki/Haut_de_la_Garenne 1 186705 0 0
+/places/Mestnaya-istoriya/ 2 213256 0 0
+/places/Pivnye/NDA= 7 829905 0 0
+/group/EDA-&-NAPITKI/2887842892788033708 1 186858 0 0
+/wiki/United_States_Census_Bureau 1 186786 0 0
+/places/Gostinnitsy/MzI= 5 616135 0 0
+/places/Vodnyj-sport/ 1 186687 0 0
+/wiki/1850_United_States_Census 1 186768 0 0
+/places/Peshij-turizm/ODU= 5 616285 0 0
+/locations/result/NDQx 2 57761 0 0
+/wiki/Leominster,_Massachusetts 1 186768 0 0
+/locations/Pravyj-sektor/NDg4 16 2575795 3 0
+/wiki/Grinton_Lodge 1 186660 0 0
+/wiki/University_of_Minnesota 1 186750 0 0
+/admin/eyeList.php 1 2466 0 0
+/wiki/Time_magazine 1 186660 0 0
+/wiki/Gym 1 186570 0 0
+/blogs/For-the-ball-used-in-the-sport-see-Basketball-(ball)-For-other-uses-see-Basketball-(disambiguation)-/3616745709828734427 1 187632 0 0
+/eyeCategory/Eye-Science/586095032447485228 1 186872 0 0
+/wiki/Kielder,_Northumberland 1 186750 0 0
+/wiki/Hostelling_International 1 186759 0 0
+/wiki/Village_People 1 186669 0 0
+/places/Zavody/MzU= 6 642488 0 0
+/places/Torgovye-tsentry/ 2 213245 0 0
+/group/POKUPKI/7523403937709046323 1 186804 0 0
+/wiki/Category:Ukrainian_communities_in_the_United_States 1 187002 0 0
+/wiki/Category:Early_American_industrial_centers 1 186921 0 0
+/news/V-Nikolaevskoj-oblasti-proshli-samye-masshtabnye-za-desyat-let-voennye-ucheniya/NTIy 1 29907 0 0
+/wiki/American_Civil_War 1 186705 0 0
+/wiki/Chicopee,_MA 1 186651 0 0
+/cms/fckeditor/editor/filemanager/upload/test.html 1 189321 1 1
+/wiki/Kampala 1 186606 0 0
+/wiki/Greenfield,_Massachusetts 1 186768 0 0
+/wiki/Talk:William_G._Morgan 1 186741 0 0
+/wiki/Mark_Wohlers 1 186651 0 0
+/places/Sumki-chemodany-portfeli/ 2 213317 0 0
+/5695481313509091778.php 1 186705 0 0
+/wiki/Politics_of_Massachusetts 1 186768 0 0
+/places/Chasy-ochki/Nzc= 5 616105 0 0
+/eyeCategory/Nebesnyj-glaz/4555444376264197620 1 186899 0 0
+/wiki/Thurlby,_South_Kesteven 1 186750 0 0
+/wiki/Help:Introduction_to_referencing/1 1 186849 0 0
+/places/Natsionalnaya-kukhnya/Mzk= 7 831538 1 0
+/wiki/Y.C._James_Yen 1 186669 0 0
+/wiki/Merrimack_Valley 1 186687 0 0
+/places/Yuvelirnye-izdeliya/ 2 213280 0 0
+/editPlace/ 1 186601 0 0
+/wiki/F%C3%BCrstenried_Palace 1 186742 0 0
+/wiki/Y.M.C.A._(song) 1 186678 0 0
+/wiki/List_of_countries 1 186696 0 0
+/group/POKUPKI/Nw== 6 708055 0 0
+/wiki/Greater_Toronto%27s_Top_Employers 1 186836 0 0
+/newsCategory/Demonstratsii/NA== 1 27096 0 0
+/blogs/Blog-Test-Jeni-012222/684188023093625195 1 186912 0 0
+/wiki/Ulan_Bator 1 186633 0 0
+/wiki/Greater_Boston 1 186669 0 0
+/wiki/Everett,_Massachusetts 1 186741 0 0
+/wiki/Bellever 1 186615 0 0
+/wiki/Southeastern_Massachusetts 1 186777 0 0
+/wiki/Granville,_Massachusetts 1 186759 0 0
+/wiki/Barnstable,_Massachusetts 1 186768 0 0
+/http:// 2 373122 0 0
+/wiki/Fr%C3%A9d%C3%A9ric_Passy 1 186743 0 0
+/wiki/Ninebanks 1 186624 0 0
+/wiki/Category:American_people_of_Welsh_descent 1 186912 0 0
+/wiki/Category:Coordinates_on_Wikidata 1 186831 0 0
+/wiki/List_of_cities_in_Massachusetts 1 186822 0 0
+/admin/locationList.php 1 3882 0 0
+/wiki/Special:SpecialPages 1 186723 0 0
+/async-searchLocation.php 27 16380 0 1
+/places/Zapovedniki/ 1 186678 0 0
+/wiki/Help:Contents 1 186660 0 0
+/admin/ 19 8062 1 0
+/wiki/Taverns 1 186606 0 0
+/wiki/Fran_Healy_(baseball) 1 186732 0 0
+/news/dfgdfg/NTIw 1 29428 0 0
+/eyeCategory/Eye-Science/Mw== 6 642616 0 0
+/wiki/St_Briavels_Castle 1 186705 0 0
+/wiki/Jurist_Doctor 1 186660 0 0
+/places/Kafeterii/ 1 186660 0 0
+/wiki/Category:Articles_needing_additional_references_from_February_2011 1 187137 0 0
+/places/Parki-&-Sady/ODQ= 5 616203 0 0
+/wiki/1890_United_States_Census 1 186768 0 0
+/wiki/Geography_of_Massachusetts 1 186777 0 0
+/async-getMyPlaces.php 3 6059 0 0
+/wiki/Human_Kinetics_(publisher) 1 186777 0 0
+/places/Zdorovaya-pischa/MzY= 7 830744 0 0
+/places/Foto/NzY= 6 642318 0 0
+/wiki/Khan_Yunis 1 186633 0 0
+/wiki/List_of_municipalities_in_Massachusetts 1 186894 0 0
+/places/Ledovye-areny/ 2 213200 0 0
+/wiki/Brockton,_Massachusetts 1 186750 0 0
+/wiki/Long_Island_Sound 1 186696 0 0
+/wiki/William_G._Morgan 1 186696 0 0
+/wiki/Elizur_Holyoke 1 186669 0 0
+/wiki/Template:Hampden_County,_Massachusetts 1 186885 0 0
+/wiki/Eastern_Standard_Time_Zone 1 186777 0 0
+/wiki/North_Shore_(Massachusetts) 1 186786 0 0
+/places/Avtosport/ODg= 5 616022 0 0
+/places/Produkty-pitaniya-napitki/NjQ= 5 617177 0 0
+/places/Bytovaya-tekhnika/ 2 213249 0 0
+/wiki/Crime_in_Massachusetts 1 186741 0 0
+/wiki/Mankinholes 1 186642 0 0
+/wiki/Soci%C3%A9t%C3%A9_d%27arbitrage_entre_les_Nations 1 186964 0 0
+/wiki/Federal_Information_Processing_Standard 1 186894 0 0
+/wiki/Lynn,_Massachusetts 1 186714 0 0
+/wiki/Category:Volleyball 1 186714 0 0
+/img/location/5931324985709049189 1 186661 0 0
+/wiki/Geneva_Convention 1 186696 0 0
+/wiki/Three_Rivers,_Massachusetts 1 186786 0 0
+/wiki/Draper 1 186597 0 0
+/places/Splavy/MzM= 5 615781 0 0
+/texteditor/assetmanager/jqueryFileTree/jqueryFileTree.php 1 1791 0 0
+/wiki/James_Naismith 1 186669 0 0
+/places/Morskaya-pischa/ 2 213226 0 0
+/wiki/2000_United_States_Census 1 186768 0 0
+/wiki/Faridabad 1 186624 0 0
+/places/Literatura/ 2 213171 0 0
+/wiki/YMCA_SCUBA_Program 1 186705 0 0
+/wiki/Racquetball 1 186642 0 0
+/wiki/Regions_of_the_United_States 1 186795 0 0
+/wiki/Talk:Holyoke,_Massachusetts 1 186786 0 0
+/blogs/category/MQ== 8 1055726 2 2
+/wiki/1930_United_States_Census 1 186768 0 0
+/wiki/Massachusetts_Bay_Colony 1 186759 0 0
+/wiki/Day_care 1 186615 0 0
+/wiki/Easthampton,_Massachusetts 1 186777 0 0
+/blogs/category/all 11 993951 1 2
+/wiki/Phonograph 1 186633 0 0
+/wiki/Worcester,_Massachusetts 1 186759 0 0
+/places/Mebel-&-Furnitura/NTk= 6 643300 0 0
+/wiki/William_Pynchon 1 186678 0 0
+/wiki/Bristol_County,_Massachusetts 1 186804 0 0
+/places/Remont-&-Santekhnika/ 2 213281 0 0
+/group/RAZVLEChENIYa/7635352973273487782 1 186858 0 0
+/places/TV-Audio-Video/ 2 213221 0 0
+/wiki/Southwick,_Massachusetts 1 186759 0 0
+/places/Bezopasnost-&-Zaschita/ 2 213292 0 0
+/wiki/Worcester_County,_Massachusetts 1 186822 0 0
+/wiki/Mumbai 1 186597 0 0
+/wiki/South_Coast_(Massachusetts) 1 186786 0 0
+/wiki/The_Y_(disambiguation) 1 186741 0 0
+/wiki/Category:Commons_category_with_page_title_same_as_on_Wikidata 1 187092 0 0
+/places/Tovary-dlya-doma-&-sada/NzQ= 5 617024 0 0
+/places/Krasota-&-Zdorove/NTg= 6 643315 0 0
+/wiki/West_Springfield,_Massachusetts 1 186822 0 0
+/wiki/Sustainable_development 1 186750 0 0
+/wiki/Portal:Contents 1 186678 0 0
+/wiki/Mei_Ho_House 1 186651 0 0
+/img/5297650496854274849 1 186580 0 0
+/wiki/Category:All_articles_with_dead_external_links 1 186957 0 0
+/places/Svadebnye-tovary/NjY= 5 616544 0 0
+/wiki/Category:Cities_in_Massachusetts 1 186831 0 0
+/wiki/Main_Page 1 186624 0 0
+/group/PRIRODA/OA== 5 632319 0 0
+/wiki/Portal:Featured_content 1 186750 0 0
+/places/Gostinnitsy/ 2 213189 0 0
+/wiki/King%27s_House,_Slaidburn 1 186764 0 0
+/wiki/Honesty 1 186606 0 0
+/js/fckeditor/editor/filemanager/upload/test.html 1 189312 1 1
+/wiki/Prisoner_of_war 1 186678 0 0
+/failed.php 1 804 0 0
+/wiki/West_Springfield,_MA 1 186723 0 0
+/wiki/Mackenzie_Stadium 1 186696 0 0
+/places/Ekstrimalnyj-sport/ 2 213261 0 0
+/admin/newsList.php 35 80016 0 0
+/wiki/The_Facts_of_Life_(film) 1 186759 0 0
+/async-getBlogThumbList.php 29 531386 0 1
+/wiki/Irving_Berlin 1 186660 0 0
+/img/location/2658277298768719316 1 186661 0 0
+/places/Avtozapchasti/Mjg= 6 643374 0 0
+/wiki/Gardner,_Massachusetts 1 186741 0 0
+/async-getNewsAnalyticsData.php 24 42495 0 0
+/wiki/The_Heritage_House 1 186705 0 0
+/wiki/Switzerland 1 186642 0 0
+/places/Zdorovaya-pischa/ 1 186723 0 0
+/wiki/1920_United_States_Census 1 186768 0 0
+/places/Sumki-chemodany-portfeli/Njk= 5 617145 0 0
+/admin/async-saveUser.php 13 4537 0 0
+/wiki/Morelos 1 186606 0 0
+/wiki/Pioneer_Valley 1 186669 0 0
+/wiki/Wikipedia:About 1 186678 0 0
+/async-addLocationToUserBucket.php 1 349 0 0
+/wiki/Once_Brewed 1 186642 0 0
+/wiki/Labor_unions 1 186651 0 0
+/wiki/1936_Summer_Olympics 1 186723 0 0
+/wiki/Northeastern_University 1 186750 0 0
+/wiki/1950_United_States_Census 1 186768 0 0
+/www.pinterest.com/pin/create/button/ 2 375750 0 2
+/wiki/Wistariahurst 1 186660 0 0
+/wiki/Jerusalem 1 186624 0 0
+/profile 5 776906 1 0
+/wiki/K._T._Paul 1 186633 0 0
+/wiki/Clean_Living_Movements 1 186741 0 0
+/wiki/East_Mountain_(Hampden_County,_Massachusetts) 1 186948 0 0
+/wiki/Braintree,_Massachusetts 1 186759 0 0
+/places/Zooparki/ODE= 5 615947 0 0
+/wiki/American_handball 1 186696 0 0
+/news/result/MTIw 1 28696 0 0
+/wiki/Blackstone_Valley 1 186696 0 0
+/wiki/Special:WhatLinksHere/Holyoke,_Massachusetts 1 186939 0 0
+/places/Muzykalnye-instrumenty/ 1 186777 0 0
+/wiki/Chelsea,_Massachusetts 1 186741 0 0
+/img/category/9176774115181682865 1 186661 0 0
+/admin/categoryDetail.php 7 19034 0 0
+/async-savePaymentHistory.php 1 349 0 0
+/wiki/Category:Organisations_based_in_Geneva 1 186885 0 0
+/wiki/Northeastern_University_(Boston,_Massachusetts) 1 186966 0 0
+/places/Trenazhernye-zaly/MTE4 5 616558 0 0
+/wiki/John_Clellon_Holmes 1 186714 0 0
+/js/highcharts/modules/1864169094812899168 1 186742 0 0
+/places/Monumenty/ 1 186660 0 0
+/news/result/MzY3 1 28662 0 0
+/places/Podarki-&-Suveniry/NjM= 5 616663 0 0
+/places/Motosport/MTEz 6 807158 0 0
+/wiki/Russell,_Massachusetts 1 186741 0 0
+/wiki/Category:Articles_with_dead_external_links_from_March_2012 1 187065 0 0
+/wiki/Southampton,_MA 1 186678 0 0
+/wiki/Hampden,_Massachusetts 1 186741 0 0
+/places/Arkhitektura/Mjc= 5 616184 0 0
+/places/Krasota-&-Zdorove/ 1 186732 0 0
+/wiki/Paper 1 186588 0 0
+/eyeList 4 586613 0 0
+/wiki/Scouting 1 186615 0 0
+/wiki/Alex_B._Morse 1 186660 0 0
+/wiki/List_of_people_from_Massachusetts 1 186840 0 0
+/wiki/Central_Massachusetts 1 186732 0 0
+/wiki/Category:All_articles_containing_potentially_dated_statements 1 187092 0 0
+/wiki/Category:Springfield,_Massachusetts_metropolitan_area 1 187020 0 0
+/wiki/Holland_(CDP),_Massachusetts 1 186795 0 0
+/wiki/Demographics_of_Massachusetts 1 186804 0 0
+/wiki/Franklin_W._Smith 1 186696 0 0
+/wiki/Roxbury,_Massachusetts 1 186741 0 0
+/wiki/Industrial_Revolution 1 186732 0 0
+/places/Stadiony/MTE2 6 807048 0 1
+/wiki/Holyoke_Heritage_State_Park 1 186786 0 0
+/wiki/T._J._Jagodowski 1 186687 0 0
+/wiki/Gender_equality 1 186678 0 0
+/places/Telefony/NzE= 5 615952 0 0
+/wiki/Yip_Yip_Yaphank 1 186678 0 0
+/places/Svadebnye-tovary/ 2 213242 0 0
+/wiki/Category:Populated_places_established_in_1745 1 186948 0 0
+/wiki/Wikipedia:Link_rot 1 186705 0 0
+/wiki/Alberguinn 1 186633 0 0
+/user 1 186534 0 1
+/async-getEyeListByCategory.php 90 128559 0 1
+/wiki/Easthampton,_MA 1 186678 0 0
+/async-getCategoryTitle.php 24 9801 0 0
+/wiki/Raymond_Kennedy 1 186678 0 0
+/admin/userList.php 71 202362 0 0
+/blogs/Origin-of-volleyball/4358769430506150393 1 186912 0 0
+/admin/login.php 19 27968 0 0
+/wiki/Bible_verse 1 186642 0 0
+/wiki/N%C3%AEmes 1 186625 0 0
+/5631561357942296079.php 1 186705 0 0
+/admin/index.php 18 7668 0 0
+/places/Muzei/NDg= 7 833445 0 0
+/group/PROZhIVANIE/4281052084911219436 1 186840 0 0
+/admin/async-saveNews.php 25 8725 0 0
+/wiki/Kettlewell 1 186633 0 0
+/admin/guideList.php 1 2156 0 0
+/wiki/United_Nations_Economic_and_Social_Council 1 186921 0 0
+/wiki/Somerville,_Massachusetts 1 186768 0 0
+/js/highcharts/modules/6837119740942800590 1 186742 0 0
+/wiki/Category:American_educators 1 186786 0 0
+/admin/notificationList.php 3 13092 0 0
+/wiki/Portland_vice_scandal 1 186732 0 0
+/locations/ 1 186642 0 0
+/wiki/Youngstown_State_University 1 186786 0 0
+/wiki/Connecticut_River 1 186696 0 0
+/wiki/1880_United_States_Census 1 186768 0 0
+/async-setLocationLike.php 17 5933 0 0
+/places/Natsionalnaya-kukhnya/ 2 213291 0 0
+/wiki/List_of_windmills_in_Massachusetts 1 186849 0 0
+/wiki/Wikipedia:Citing_sources 1 186759 0 0
+/wiki/List_of_counties_in_Massachusetts 1 186840 0 0
+/newsAnalytics 6 640166 0 0
+/admin/permissionList.php 9 18326 0 0
+/wiki/Japanese_American_internment 1 186795 0 0
+/wiki/Malden,_Massachusetts 1 186732 0 0
+/wiki/Cheyenne_River_Indian_Reservation 1 186840 0 0
+/wiki/Haverhill,_Massachusetts 1 186759 0 0
+/blogs/Football-From-Wikipedia-the-free-encyclopedia/7709026874239580465 1 187137 0 0
+/wiki/Elections_in_Massachusetts 1 186777 0 0
+/wiki/Franklin_County,_Massachusetts 1 186813 0 0
+/places/Karting/MTEw 6 642527 0 0
+/wiki/South_Hadley,_MA 1 186687 0 0
+/wiki/Nashville_School_of_Law 1 186750 0 0
+/wiki/YWCA 1 186579 0 0
+/blogs/For-the-ball-used-in-the-sport-see-Basketball-(ball)-For-other-uses-see-Basketball-(disambiguation)-/Mg== 2 231230 0 0
+/wiki/Winthrop,_Massachusetts 1 186750 0 0
+/wiki/List_of_Massachusetts_state_symbols 1 186858 0 0
+/wiki/Hostelling_International_Northern_Ireland 1 186912 0 0
+/wiki/Nariman_House 1 186660 0 0
+/wiki/Music_of_Massachusetts 1 186741 0 0
+/wiki/Sioux 1 186588 0 0
+/wiki/Lockport_(city),_New_York 1 186768 0 0
+/wiki/Commonwealth_(U.S._state) 1 186768 0 0
+/wiki/Quabbin_Valley 1 186669 0 0
+/group/INFRASTRUKTURA/MTI= 7 834291 0 0
+/places/Pivnye/ 1 186633 0 0
+/wiki/Bob_Goodlatte 1 186660 0 0
+/wiki/Administrative_divisions_of_Massachusetts 1 186912 0 0
+/wiki/French_Canadian 1 186678 0 0
+/places/Trenazhernye-zaly/ 1 186732 0 0
+/wiki/1960_United_States_Census 1 186768 0 0
+/wiki/Norfolk_County,_Massachusetts 1 186804 0 0
+/news/cv/NTI0 2 57959 0 0
+/admin/fckeditor/editor/filemanager/upload/test.html 1 190570 1 1
+/wiki/Western_Massachusetts 1 186732 0 0
+/wiki/Boston 1 186597 0 0
+/texteditor/scripts/common/websource.htm 1 4092 0 0
+/places/Zimnij-sport/MTA5 6 642933 0 0
+/wiki/Massachusetts 1 186660 0 0
+/places/TV-Audio-Video/NzI= 6 643208 0 0
+/wiki/MetroWest 1 186624 0 0
+/blogs/category/Mg== 6 647789 0 1
+/wiki/YMHA 1 186579 0 0
+/wiki/World_War_I 1 186642 0 0
+/async-savePlanTripLocationList.php 59 20591 0 0
+/places/Volejbol/ 2 213156 0 0
+/wiki/Mayor-council_government 1 186759 0 0
+/wiki/Hampden_County,_Massachusetts 1 186804 0 0
+/places/Zootovary/NTU= 5 616001 0 0
+/blogs/ 1 26489 0 1
+/wiki/Ilam_Park 1 186624 0 0
+/wiki/Plymouth_Colony 1 186678 0 0
+/wiki/List_of_mayors_of_Holyoke,_Massachusetts 1 186903 0 0
+/wiki/1940_United_States_Census 1 186768 0 0
+/wiki/Geology_of_Massachusetts 1 186759 0 0
+/async-setLocationUpToTop.php 3 1140 0 0
+/wiki/Microclimate 1 186651 0 0
+/wiki/Suffolk_County,_Massachusetts 1 186804 0 0
+/wiki/Hydropower 1 186633 0 0
+/wiki/Neil_Sheehan 1 186651 0 0
+/wiki/Wilderhope_Manor 1 186687 0 0
+/wiki/Monson,_Massachusetts 1 186732 0 0
+/wiki/Pakistan_Youth_Hostels_Association 1 186849 0 0
+/blogs/category/7524427695204309984 1 186804 0 0
+/places/Seks-shopy/Njc= 5 616024 0 0
+/wiki/Mike_LaPlante 1 186660 0 0
+/locations/COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL/MzY4 2 53692 1 0
+/places/Splavy/ 2 213139 0 0
+/wiki/Khan_Al-Ahmar 1 186660 0 0
+/wiki/2010_United_States_Census 1 186768 0 0
+/blogs/2678535102599627402 1 186723 0 0
+/wiki/South_Pacific_Underwater_Medicine_Society 1 186912 0 0
+/wiki/Category:Images_of_Massachusetts 1 186831 0 0
+/wiki/Franklin_University 1 186714 0 0
+/group/SPORT/4202120511086134998 1 186786 0 0
+/wiki/Waltham,_Massachusetts 1 186741 0 0
+/wiki/Holyoke_Community_College 1 186768 0 0
+/wiki/Peabody,_Massachusetts 1 186741 0 0
+/admin/async-logIn.php 77 27859 0 0
+/blogs/category/NQ== 7 826688 2 1
+/texteditor/scripts/common/webimage.htm 1 10713 0 0
+/wiki/New_York_Society_for_the_Suppression_of_Vice 1 186939 0 0
+/wiki/Governance 1 186633 0 0
+/async-getBlogInfo.php 14 45656 0 0
+/trips/NDg0OQ== 2 53242 0 1
+/places/Motosport/ 2 213165 0 0
+/wiki/San_Angelo,_Texas 1 186696 0 0
+END_SIDER

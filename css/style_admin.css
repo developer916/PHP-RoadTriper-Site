@@ -1,0 +1,195 @@
+body{ background: #FAFAFA; }
+#container{ width: 1100px; margin: 0px auto; background: #FFF; border: 1px solid #DDD;border-top: none; min-height: 800px; position: relative;}
+#leftMenu{ width: 290px; margin-top: 5px; margin-left: 20px; margin-bottom: 20px;}
+#content{ width: 760px; margin-bottom: 70px;}
+
+table#tblUserDetail{ font-size: 12px;}
+table#example{ font-size: 12px;}
+table#example tr th{ text-align:center;}
+table#example tr td{ text-align:center;}
+
+table#example1{ font-size: 12px;}
+table#example1 tr th{ text-align:center;}
+table#example1 tr td{ text-align:center;}
+
+.span6{width: 370px;}
+
+#divContent{ margin-top: 30px; }
+.pageHeader{margin-top: 30px;}
+table#tblUserDetail tr th{ width: 40%; text-align:right;}
+#footerAdmin{ position: absolute; bottom:0px; height: 30px; width: 100%;text-align:center;padding-top: 15px; border-top: 1px solid #DDD; }
+#adminTop{background: url('/img/adminTop.png'); height: 106px;}
+#adminSiteName{margin-top: 0px; padding-top: 30px; color: #FFF; padding-left: 50px;}
+#adminInfo{ margin-top:20px;margin-right:30px; }
+#adminInfo a{ color:#FFF; text-decoration: none; }
+#adminInfo a:hover{ color:#98B1FD; }
+.required{color:#EE4242; padding-left: 3px; font-weight:bold;}
+#commentItem{font-size: 12px; width: 96%; margin: 2%; border-bottom: 1px solid #EEE; padding-bottom:10px;}
+#commentText{ width: 100%;font-size: 12px; }
+
+#partmap-Canvas{
+	width:350px;
+	height:600px;
+	float:right;
+	display:inline-block;
+	margin-top:-7%;
+	margin-right:0%;
+	border: 1px solid #AAA;
+}
+#partmap-Canvas img { max-width: none; }
+.map{
+	width:100%;
+	position:relative;
+}
+.control-group{
+	display:inline-block;
+}
+#panel {
+        position: absolute;
+        top: -51px;
+        left: 54%;
+        z-index: 5;
+        background-color: #fff;
+        padding: 5px;
+        border: 1px solid #999;
+      }
+input.notfound {
+        border: 2px solid  rgba(255, 0, 0, 0.4);
+      }
+.add-location{
+	width: 70%;
+	height: 210px;
+	display: inline-block;
+	
+}
+#location-category{
+	width: 400px;
+	height: 100px;
+	border: 1px solid #DDD;
+	border-radius:3px;
+	margin-left:180px;
+	background-color:#FFF;
+}
+#addedCategory{
+	display:inline-block;
+	padding: 3px 7px 3px 7px;
+	margin-left:5px;
+	margin-top:5px;
+	background:#AAD8FC;
+	
+}
+#addedCategorytitle{
+	display:inline-block;
+	margin-right:3px;
+}
+.icon-remove-circle{
+	cursor:pointer;
+}
+
+#idArea_editorobj1{
+	height:300px;
+}
+#previewCategoryMarker{
+	width: 29px;
+	height:40px;
+}
+.istoolbar_container{
+	border:1px solid #ddd;
+}
+#removeAddedCategory{ cursor: pointer;}
+#locationDescription{width:380px;}
+#blogContentdummy{
+	width:650px;
+}
+.notificationLabel{
+	padding: 5px;
+	float: left;
+	line-height: 20px;
+	margin-left: 20px;
+	font-size: 11pt;
+	width: 450px;
+	height: 20px;
+	border: 1px solid #9C9797;
+	box-shadow: 0.5px 0.5px 1px 0px  #C0C0C0;
+	height:100px;
+}
+#newsPartMap-Canvas{
+	width:400px;
+	height:500px;
+	float:right;
+	display:inline-block;
+	margin-top:-7%;
+	margin-right:0%;
+	border: 1px solid #AAA;
+}
+#newsPartMap-Canvas img { max-width: none; }
+#newsPanel{
+	 position: absolute;
+     top: -53px;
+     left: 47.3%;
+     z-index: 5;
+     background-color: #fff;
+     padding: 5px;
+     border: 1px solid #999;
+}
+.newsMapPanel{
+	position:relative;
+}
+#newsStreetAddress{ width: 150px;}
+
+#eyePartMap-Canvas{
+	width:400px;
+	height:550px;
+	float:right;
+	display:inline-block;
+	margin-top:-7%;
+	margin-right:0%;
+	border: 1px solid #AAA;	
+}
+#eyePartMap-Canvas img { max-width: none; }
+#eyePanel{
+	 position: absolute;
+     top: -53px;
+     left: 47.3%;
+     z-index: 5;
+     background-color: #fff;
+     padding: 5px;
+     border: 1px solid #999;
+}
+.eyeMapPanel{
+	position:relative;
+}
+#eyeStreetAddress{ width: 150px;}
+
+#locationStreetAddress{ width: 150px;}
+.previewMultiImage{
+	width: auto;
+	max-width: 253px;
+	height: 80px;
+	overflow-y: auto;
+}
+.previewMultiImage .img-wrap img{
+	width: 50px;
+	height: 40px;
+	border-radius: 5px;
+}
+.previewMultiImage .img-wrap{
+	position: relative; 
+	display: inline-block;
+	margin-right: 4px;
+	margin-bottom: 4px;
+}
+.previewMultiImage .img-wrap .close-button{
+	position: absolute;
+	right: 0px;
+	top: 0px;
+	background: url(../img/close.png) no-repeat top center;
+	background-size: 80%;
+	width: 15px;
+	height: 15px;
+	display: none;
+	cursor: pointer;
+}
+.previewMultiImage .img-wrap:hover .close-button{
+	display: block;
+}

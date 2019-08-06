@@ -1,0 +1,6 @@
+##AuthType Basic
+##AuthName "/www/ua-1.com/admin"
+##AuthUserFile /var/www/santana/data/etc/65541570.passwd
+##<Limit GET POST>
+	##require valid-user
+##</Limit>

@@ -1,0 +1,10 @@
+[2014/06/05 07:08:19] SQL : select ua_title from ua_eye_category where ua_eye_category = 4
+[2014/06/05 08:30:16] SQL : select ua_location_title, ua_location from ua_location where ua_place_subcategory in (select ua_place_subcategory from ua_place_subcategory where ua_place_category = 125)
+[2014/06/05 08:31:08] SQL : select ua_location_title, ua_location from ua_location where ua_place_subcategory in (select ua_place_subcategory from ua_place_subcategory where ua_place_category = 67)
+[2014/06/05 08:31:23] SQL : select ua_location_title, ua_location from ua_location where ua_place_subcategory in (select ua_place_subcategory from ua_place_subcategory where ua_place_category = 125)
+[2014/06/11 06:05:32] SQL : insert into ua_user_bucket( ua_user, ua_bucket_title, ua_created_time, ua_updated_time)
+			value( 81, 'pippo', now(), now() )
+[2014/06/12 11:07:30] SQL : insert into ua_user_bucket( ua_user, ua_bucket_title, ua_created_time, ua_updated_time)
+			value( 34, 'Мой', now(), now() )
+[2014/07/06 08:59:32] SQL : insert into ua_user_bucket( ua_user, ua_bucket_title, ua_created_time, ua_updated_time)
+			value( 86, 'jh', now(), now() )

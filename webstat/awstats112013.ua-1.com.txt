@@ -1,0 +1,899 @@
+AWSTATS DATA FILE 7.0 (build 1.971)
+# If you remove this file, all statistics for date 201311 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.ua-1.com.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 27
+POS_GENERAL 1988                
+POS_TIME 2677                
+POS_VISITOR 10668               
+POS_DAY 18847               
+POS_DOMAIN 3678                
+POS_LOGIN 3916                
+POS_ROBOT 4071                
+POS_WORMS 5047                
+POS_EMAILSENDER 5178                
+POS_EMAILRECEIVER 5321                
+POS_SESSION 19826               
+POS_SIDER 20039               
+POS_FILETYPES 5456                
+POS_DOWNLOADS 5766                
+POS_OS 5882                
+POS_BROWSER 6070                
+POS_SCREENSIZE 7287                
+POS_UNKNOWNREFERER 7361                
+POS_UNKNOWNREFERERBROWSER 7849                
+POS_ORIGIN 8206                
+POS_SEREFERRALS 8356                
+POS_PAGEREFS 8532                
+POS_SEARCHWORDS 9107                
+POS_KEYWORDS 9381                
+POS_MISC 2338                
+POS_ERRORS 9566                
+POS_CLUSTER 3772                
+POS_SIDER_404 9718                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20131201000228 1903 383395 10697299582637
+FirstTime 20131101000215
+LastTime 20131130234556
+LastUpdate 20131201042722 1903 0 1902 0 0
+TotalVisits 833                 
+TotalUnique 172                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 209                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 1255 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 1657 2100 12427930 34 73 1593271
+1 611 1131 8292649 27 112 1963625
+2 140 338 5196838 79 115 1615855
+3 290 480 6640752 69 212 3893998
+4 586 879 5544199 22 79 1468142
+5 1396 2043 8960070 39 131 1968911
+6 2471 3667 10396523 24 240 3205011
+7 4567 5663 11105874 30 71 775158
+8 5287 6631 21367411 34 78 1513781
+9 8471 9976 21470032 120 204 1953823
+10 11985 14267 34634299 44 164 2565516
+11 11579 13794 26272861 37 222 2783793
+12 10693 13599 33098460 51 305 4163637
+13 8067 8661 21606024 34 68 903669
+14 7987 8845 17925579 28 52 1064854
+15 6836 9185 25613941 55 197 2895583
+16 5775 8997 34427037 49 143 2370722
+17 8376 12372 41240423 40 174 1709013
+18 10759 14377 37719112 74 247 3219799
+19 12258 17028 81187917 57 288 3385027
+20 11571 15964 37266572 45 165 3000237
+21 10471 13641 43313283 286 383 2417703
+22 5728 8500 36685773 39 139 1677359
+23 2850 4113 18974738 30 87 1423286
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 1
+ip 150411 196251 601368297
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 22
+googlebot 1008 14980560 20131130234637 156
+bot[\s_+:,\.\;\/\\-] 283 10096702 20131130172949 110
+yandex 167 4151513 20131130000007 44
+baiduspider 100 2344378 20131130192722 6
+[\s_+:,\.\;\/\\-]bot 83 1426835 20131130120928 0
+sogou 67 2150627 20131125051049 31
+phantom 47 1165951 20131118155647 0
+java\/[0-9] 34 1421881 20131117163448 20
+mail\.ru 24 839911 20131114231002 13
+unknown 15 653742 20131122013341 15
+no_user_agent 10 375122 20131127195504 0
+ia_archiver 10 552861 20131108044843 4
+spider 12 126896 20131129111416 9
+libwww 3 159712 20131109173607 0
+feedfetcher\-google 4 162974 20131127211915 0
+msnbot 6 56684 20131117222551 3
+surveybot 4 151326 20131126003004 2
+webfilter 11 116122 20131115050011 2
+msnbot\-media 10 99583 20131119121646 3
+netcraft 1 53729 20131110214240 0
+crawl 5 235125 20131126181240 0
+nutch 6 65353 20131128084916 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 8338 56426930 0 0
+png 16065 59575979 0 0
+htm 8 56609 0 0
+txt 1 57514 0 0
+swf 2 45788 0 0
+php 147853 187894777 0 0
+html 1901 35671211 0 0
+xml 1 68881 0 0
+js 16028 224685851 0 0
+jpg 4679 28116035 0 0
+Unknown 646 8180776 0 0
+gif 729 587946 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 2
+/robots.txt 421 0 15590915
+/wp-plugins/akismet/readme.txt 1 0 57514
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS 12
+blackberry 1
+linuxandroid 184
+winxp 26936
+winlong 663
+linux 2029
+winvista 65534
+win7 87179
+winme 1
+macosx 13529
+winunknown 8
+win2003 12
+Unknown 175
+END_OS
+
+# Browser ID - Hits
+BEGIN_BROWSER 68
+msie6.0 15
+firefox3.6 11
+chrome30.0.1599.92 40
+firefox18.0 1460
+firefox4.0 1
+safari5.0.6 41
+chrome32.0.1700.19 52
+chrome31.0.1650.57 48407
+chrome31.0.1650.39 39
+chrome31.0.1650.48 278
+chrome23.0.1271.95 1
+safari5.0.2 1023
+firefox3.6.15 36
+chrome28.0.1500.72 19
+msie8.0 4
+chrome27.0.1453.93 41
+msie7.0 358
+chrome27.0.1453 51
+chrome28.0.1501.55 198
+chrome25.0.1364.152 1
+chrome18.0.1025.45 1
+firefox21.0 62
+safari6.0 176
+firefox3.5.2 1
+safari6.0.5 4630
+firefox3.5.5 1
+firefox25.0 86797
+mozilla 94
+firefox14.0.1 11
+netscape4.0 102
+chrome26.0.1410.63 166
+firefox3.6.3 1
+safari5.1.9 40
+safari6.1 107
+safari 100
+chrome21.0.1180.89 27
+safari7.0 1068
+firefox3.0.7 2
+chrome23.0.1271.64 1
+android 144
+chrome22.0.1229 125
+chrome22.0.1229.79 1
+chrome33.0.1712.4 1
+firefox24.0 4648
+minefield 10
+opera9.80 168
+netscape4.76 1
+safari5.1.5 1
+firefox16.0 1
+msie9.0 29
+chrome18.0.1025.1634 1
+Unknown 71
+chrome30.0.1599.101 42886
+firefox11.0 1
+chrome30.0.1599.114 600
+blackberry 1
+firefox17.0 1
+firefox3.0.11 1
+chrome28.0.1500.71 98
+chrome20.0.1132.57 42
+chrome30.0.1588.0 93
+safari5.1.2 1
+msie10.0 1535
+safari5.1 183
+firefox6.0 81
+firefox3.6.12 21
+chrome23.0.1271.97 42
+firefox3.5.7 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 10
+SEOstats_2.1.0 20131127195502
+Mozilla/4.76 20131121004538
+Pinterest/0.1__http://pinterest.com/ 20131105203705
+Google_Analytics_Snippet_Validator 20131113224111
+Mozilla/5.0_(compatible;_Google-Site-Verification/1.0) 20131122221650
+panscient.com 20131122013346
+Mozilla/4.0 20131130192225
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20131129182510
+PHP/5.3.20 20131108221427
+Shockwave_Flash 20131129203442
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 7
+SEOstats_2.1.0 20131127195502
+Pinterest/0.1__http://pinterest.com/ 20131105203705
+PayPal_IPN_(_https://www.paypal.com/ipn_) 20131129182510
+Google_Analytics_Snippet_Validator 20131113224111
+panscient.com 20131122013346
+PHP/5.3.20 20131108221427
+Shockwave_Flash 20131129203442
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 1979 2193
+From1 0 0
+From2 51 51
+From3 63 78
+From4 148318 193929
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+google 47 47
+baidu 3 3
+bing 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 12
+https://www.facebook.com 26 26
+http://www.browseo.net 16 23
+http://www.webconfs.com/search-engine-spider-simulator.php 6 6
+http://www.facebook.com/l.php 5 5
+http://dljazz.info 5 5
+http://us-mg6.mail.yahoo.com/neo/launch 1 1
+http://www.imena.ua/site/check-domain 1 1
+http://m.facebook.com 1 1
+http://www.jobadoo.us/mail/ 1 1
+http://abin.pen.io/#19082 1 1
+http://www.pinterest.com/pin/create/button/ 0 1
+http://firtka.if.ua 0 7
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 4
+ua-1 2
+google 1
+ua-1_ua-1+%7c+%a7%b5%a7%dc%a7%e2%a7%d1%a7%da%a7%df%a7%d1%a7%e0%a7%df%a7%dd%a7%d1%a7%db%a7%df 1
+ua-1.com 1
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 6
+ua-1 2
+google 1
+%a7%b5%a7%dc%a7%e2%a7%d1%a7%da%a7%df%a7%d1%a7%e0%a7%df%a7%dd%a7%d1%a7%db%a7%df 1
+ua-1.com 1
+ua-1_ua-1 1
+%7c 1
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 6
+403 5 1940
+503 4 2128
+206 200 2218031
+500 14 5376
+404 12 5315
+301 549 254931
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referer
+BEGIN_SIDER_404 5
+/$ 1 http://www.ua-1.com/
+/news/OLD-TUCSON-STUDIOS/async-getNotificationList.php 1 http://www.ua-1.com/news/OLD-TUCSON-STUDIOS/MTIw
+/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/Mzc= 4 -
+/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/async-getNotificationList.php 5 http://www.ua-1.com/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/Mzc=
+/news/SHADY-DELL/async-getNotificationList.php 1 http://www.ua-1.com/news/SHADY-DELL/MTIx
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 209
+175.100.72.131 68438 83446 128024663 20131130063643
+180.94.70.78 34282 43807 83857460 20131127101227
+180.94.69.187 22007 27344 66703729 20131130124941
+180.94.70.66 10395 14069 25605680 20131123230637
+180.94.70.77 4116 5594 8471409 20131130234556
+71.67.114.6 3181 6803 85411144 20131125231054
+194.44.216.202 1376 1458 2819539 20131116225239
+68.60.76.125 1299 1364 1867716 20131118200119
+71.137.236.87 913 960 1550366 20131126100314
+78.138.131.157 905 1089 5159369 20131126145550
+80.86.88.172 1 1 10883 20131120032447
+87.251.174.115 408 482 2010416 20131127100614
+95.211.22.216 1 1 73534 20131126164211
+208.102.114.67 47 54 26760 20131120042923
+66.249.80.67 0 1 10323 
+202.46.51.42 1 1 73534 20131125050252
+220.181.108.141 0 1 18373 
+220.181.108.159 0 1 6118 
+201.141.98.177 480 561 1706900 20131130063601
+151.27.237.147 0 1 8428 
+199.30.25.102 0 44 1123195 
+199.30.24.84 1 43 1144402 20131113210001
+37.115.181.180 1 1 9645 20131111230922
+205.204.21.240 1 39 1055822 20131105042731
+109.207.192.2 24 72 1233743 20131127174017
+83.228.149.147 1 1 90593 20131127210633
+173.12.33.93 1 39 1055822 20131105022353
+50.22.90.226 1 41 1085437 20131108220957
+178.218.213.16 1 1 53242 20131109215234
+76.181.244.197 1 39 1055822 20131104221311
+220.181.132.195 1 27 966794 20131120121213
+88.255.15.198 4 4 39622 20131113224612
+200.165.246.153 33 78 1209147 20131124224928
+162.243.54.27 2 2 113830 20131114075836
+72.14.199.183 2 2 10454 20131114192808
+129.137.168.33 2 42 1113924 20131104193531
+41.251.32.105 32 81 1302931 20131118162303
+71.72.131.84 1 39 1055822 20131104212603
+54.211.71.137 0 1 21582 
+180.153.163.208 1 63 3334327 20131130192219
+95.209.193.15 2 44 161099 20131123144559
+123.125.68.21 0 1 124893 
+178.137.136.49 0 1 9818 
+204.210.170.162 20 67 1271253 20131119153228
+64.132.166.194 3 44 1122076 20131104192646
+119.63.193.195 58 58 3488142 20131129230945
+8.35.201.112 10 19 656115 20131106152754
+129.137.165.245 2 44 1125642 20131104193554
+213.239.220.81 1 1 68917 20131121004538
+107.20.44.175 0 1 4711 
+182.239.196.53 4 46 1154985 20131114101747
+46.4.123.207 2 2 113340 20131117123408
+61.135.190.221 0 9 463150 
+92.60.182.129 1 41 1085437 20131108181106
+193.43.252.252 5 5 272763 20131107145743
+54.227.180.195 1 2 17881 20131105203702
+74.215.141.75 51 875 16538028 20131119045000
+94.191.185.229 3 85 780703 20131130215457
+178.205.12.207 3 47 1158064 20131119163216
+38.100.21.65 9 11 634755 20131120192649
+93.188.36.79 1 1 78496 20131129075835
+79.132.160.109 6 6 60812 20131117181146
+96.11.199.23 36 1165 30761790 20131115213046
+178.151.216.88 1 1 40102 20131101000215
+74.83.60.107 1 39 1055822 20131104211159
+220.181.127.123 2 2 137834 20131120122423
+8.35.201.114 11 19 44013 20131106152804
+66.249.82.183 4 164 4341748 20131108220749
+46.248.58.62 1 1 13617 20131130084313
+199.30.228.136 2 46 1143187 20131116104008
+115.127.15.102 2 40 1064665 20131105080110
+66.195.150.230 1 39 1055822 20131105001136
+61.135.190.219 1 9 308707 20131120112353
+69.133.56.210 14 63 1391644 20131105034232
+66.238.88.130 1 39 1055822 20131104205002
+54.224.159.235 1 1 371 20131105203701
+95.215.143.47 0 20 1150400 
+85.102.208.105 8 52 1145263 20131115193737
+107.22.61.38 1 2 139756 20131105203701
+66.249.88.32 2 2 25277 20131128145901
+119.147.146.189 2 20 831002 20131129134911
+66.249.84.54 3 21 131046 20131127184520
+220.181.108.168 0 1 221324 
+107.199.58.255 2 46 1158654 20131120224225
+119.63.193.194 40 40 2485287 20131129210928
+79.138.140.91 2 47 1209801 20131119090335
+99.255.160.225 21 69 1232663 20131126181751
+54.227.97.49 0 1 867 
+8.35.201.117 6 10 67903 20131106152716
+180.94.70.74 595 595 213605 20131127122607
+91.217.162.72 1 1 9297 20131110050718
+178.74.192.45 0 1 10029 
+74.83.145.66 9 100 2402847 20131122205615
+195.34.206.101 31 89 1575202 20131103195030
+194.44.158.193 0 1 11415 
+38.99.82.198 1 1 8410 20131103011751
+202.46.55.59 1 1 67997 20131118170231
+119.63.193.131 42 42 2504432 20131130130619
+24.172.242.50 27 314 232440 20131105013220
+54.226.71.156 1 1 56712 20131113120037
+23.23.42.53 0 1 1085 
+202.46.63.75 1 1 54599 20131108090913
+69.58.178.59 11 11 627256 20131108165009
+50.19.42.39 1 1 9168 20131106235158
+208.102.40.206 2 40 1064665 20131104194039
+209.85.238.37 2 2 9354 20131105203736
+220.181.108.176 0 1 24356 
+8.28.16.254 1 1 52751 20131104222409
+66.249.83.183 1 1 10614 20131112121820
+74.105.162.32 22 36 960777 20131122013346
+98.164.73.190 2 46 1157718 20131119144801
+157.55.252.30 1 1 10024 20131115065630
+220.181.108.171 0 1 6414 
+110.33.194.183 136 194 2748037 20131118125718
+74.203.240.194 139 183 1215618 20131119172059
+209.133.77.166 1 1 68924 20131119073908
+50.17.11.191 0 1 20428 
+85.114.135.126 1 1 67753 20131118092617
+220.181.108.161 0 1 4506 
+174.103.133.37 3 47 139058 20131119070307
+202.46.56.52 1 1 52881 20131108130534
+206.169.227.78 1 39 1055822 20131105004911
+38.99.82.230 1 1 8410 20131103011523
+46.65.215.106 1 39 1055822 20131105122510
+199.30.25.66 0 1 124893 
+65.55.213.41 2 29 1006516 20131124100552
+23.22.33.243 0 1 2006 
+66.249.84.73 7 27 193211 20131108113212
+66.249.85.193 6 36 247749 20131105203650
+188.143.233.7 1 1 68881 20131121044559
+122.61.173.122 38 92 1520766 20131127090811
+109.87.146.161 1 1 73463 20131124112213
+46.229.170.197 1 1 57568 20131117030729
+8.35.201.113 8 12 100320 20131106152825
+54.224.145.47 0 1 744 
+85.195.171.181 15 15 136302 20131106190508
+66.249.80.90 0 1 10323 
+85.17.131.209 4 166 4364612 20131108221024
+119.180.24.194 1 1 9641 20131111172631
+66.117.231.3 7 58 1166437 20131104224843
+69.64.32.191 4 4 297662 20131127195502
+220.181.108.147 0 1 42086 
+37.153.211.193 480 521 1291582 20131105235820
+96.253.47.50 2 42 1125584 20131104193618
+65.27.232.38 27 78 1293925 20131120012107
+180.222.139.130 5 5 46625 20131109142502
+162.202.134.72 1 45 1133220 20131117053615
+174.51.147.251 1 39 1055822 20131105082128
+130.253.34.95 1 39 1055822 20131104195413
+109.251.115.243 0 1 9818 
+173.0.82.126 18 18 7038 20131129182510
+71.67.121.153 2 40 1064665 20131105002338
+8.35.201.119 8 14 107548 20131106152815
+176.36.68.207 0 1 11415 
+209.85.238.126 3 3 22745 20131122221650
+8.35.201.118 4 9 115422 20131106152554
+79.132.160.44 1 1 10025 20131116214144
+61.135.189.137 0 41 1394842 
+158.255.45.243 2 2 62921 20131108221427
+62.122.72.71 1 1 10024 20131115040059
+119.63.193.132 42 42 2548453 20131130191200
+93.72.67.228 0 1 10029 
+46.119.114.140 2 2 158935 20131130224400
+111.161.62.200 1 20 962813 20131129134847
+8.35.201.115 3 8 66445 20131106152743
+61.135.190.101 0 9 463150 
+8.35.201.116 2 2 692 20131106152543
+93.77.153.33 23 76 1341963 20131124185055
+64.1.54.194 1 39 1055822 20131104193052
+65.27.195.70 2 47 1209801 20131119110713
+202.46.54.34 1 1 55031 20131108110637
+119.63.193.196 66 66 3819553 20131130211145
+64.34.169.244 1 1 57568 20131117005808
+65.175.19.194 2 42 1125584 20131104222526
+54.242.62.180 0 1 1483 
+220.181.108.157 0 1 31598 
+82.22.26.30 43 210 3147969 20131130172952
+74.140.58.58 16 143 2787471 20131113233045
+71.227.82.191 2 46 1157718 20131119120101
+174.238.134.19 9 76 2016996 20131105013321
+220.181.108.181 0 1 4408 
+66.87.91.127 1 40 1107905 20131105014210
+220.181.108.169 0 1 268372 
+220.181.132.196 1 27 966794 20131120123329
+69.127.72.125 1 39 1055822 20131104202002
+74.208.218.12 6 6 340416 20131108221541
+54.221.104.227 1 1 8901 20131104192154
+58.240.175.106 1 27 966794 20131120091515
+199.30.25.178 0 1 1283 
+198.211.107.231 1 1 53215 20131109144719
+46.4.48.68 1 1 53242 20131109175332
+65.27.203.29 33 154 2490571 20131120200000
+199.16.190.194 61 209 4003090 20131119172358
+69.61.215.8 2 49 35358 20131104224805
+180.153.206.28 1 19 862793 20131115173340
+74.50.56.73 1 1 67997 20131118155635
+174.50.177.163 12 71 1415065 20131126183827
+119.63.193.130 46 46 2805823 20131130230740
+54.224.215.144 0 1 10323 
+166.147.104.161 5 51 1219294 20131119190300
+71.201.61.29 1 39 1055822 20131104203448
+74.142.115.15 2 41 1073501 20131104194657
+184.73.105.192 0 1 1476 
+139.218.250.110 6 55 1291262 20131124080451
+66.249.82.38 5 187 4630747 20131128145902
+61.135.190.103 1 9 308707 20131121055350
+193.106.31.187 1 1 9278 20131108111211
+196.195.249.245 1 26 940721 20131113192738
+216.196.152.242 10 102 2441627 20131119173643
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20131101 810 2856 13117634 26
+20131102 164 523 2684519 12
+20131103 185 373 5187373 12
+20131104 651 3525 64931620 45
+20131105 2017 3625 30286874 49
+20131106 7950 9324 33729749 41
+20131107 18385 19830 30811834 25
+20131108 14857 17165 42404249 42
+20131109 2823 3575 4259107 27
+20131110 1159 2262 8094509 22
+20131111 4125 6402 19853498 28
+20131112 4731 7124 26439940 26
+20131113 4021 6248 13766489 33
+20131114 4426 6975 28674910 26
+20131115 4567 6706 35303694 31
+20131116 2087 2471 8206158 22
+20131117 849 1855 12229592 29
+20131118 5317 7045 30946132 32
+20131119 3255 5289 38164876 42
+20131120 3201 4991 18786672 35
+20131121 2904 4286 12823828 26
+20131122 667 1088 8098360 22
+20131123 7717 9131 14830606 20
+20131124 7638 7940 10425582 22
+20131125 4911 5233 6895031 18
+20131126 15133 17033 22825050 26
+20131127 19205 21849 19382151 27
+20131128 2091 4110 12558391 22
+20131129 2955 5265 16834098 23
+20131130 1610 2152 8815771 22
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 96
+5mn-15mn 41
+30s-2mn 44
+15mn-30mn 30
+2mn-5mn 35
+0s-30s 542
+30mn-1h 45
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 266
+/async-getNotificationList.php 121194 42690906 36 170
+/async-getLocationInfo.php 6244 13115080 2 27
+/async-getCategoryLocationInfo.php 3291 10243175 0 6
+/blogs/category/async-getNotificationList.php 2614 24129779 0 5
+/ 1845 35091388 759 500
+/async-getLocationInfoByIds.php 1100 9222251 0 2
+/async-getDistanceDuration.php 1003 662995 0 1
+/group/Music/async-getNotificationList.php 978 10431976 0 0
+/async-getNewsListByCategory.php 933 2943807 0 1
+/async-getNewPlanTripId.php 656 239498 2 38
+/admin/blogList.php 20 39304 0 0
+/admin/newsCategoryDetail.php 15 32169 0 0
+/async-setLocationScoreUp.php 7 2436 0 0
+/async-savePlanTrip.php 41 14965 0 0
+/trips/ndq4 1 10890 0 0
+/trips/NzA1 5 60742 0 0
+/blogs/Origin-of-volleyball/async-getNotificationList.php 376 3511681 0 1
+/trips/NDYy 1 10913 0 0
+/admin/async-saveNotification.php 15 14116 0 0
+/trips/NDQ3 1 10912 0 0
+/async-getGuideBucketLocation.php 59 213687 0 0
+/async-savedPlanTrip.php 89 94804 0 0
+/editPlace/MzU4 1 14020 0 0
+/admin/categoryList.php 5 10872 0 0
+/texteditor/assetmanager/server/newfolder.php 2 530 0 0
+/async-getNewsInfoByIds.php 428 2696980 0 1
+/admin/eyeDetail.php 3 8674 0 0
+/group/Scientce/Nw== 1 11463 0 0
+/trips/NTU0 1 11446 0 0
+/editPlace/MzU3 6 85001 0 0
+/newsList 2 22116 0 0
+/locations/Kiev/NO_PROFILE_PHOTO 1 11346 0 0
+/locations/Poltava/async-getNotificationList.php 137 1333099 1 0
+/admin/guideTripListDetail.php 2 4746 0 1
+/places/Nano/async-getNotificationList.php 8 87217 0 0
+/newsCategory/World-News/async-getNotificationList.php 35 375340 0 0
+/locations/Luhansk/async-getNotificationList.php 6 60164 0 0
+/wp-login.php 1 67753 1 1
+/async-signOut.php 37 31080 0 0
+/async-searchLocationOnGoogleMap.php 534 1783250 0 1
+/admin/eyeCategoryDetail.php 2 4622 0 0
+/async-getNewsCategoryInfo.php 35 18251 0 0
+/places/Music1/async-getNotificationList.php 90 960771 0 1
+/addPlace 1 13657 0 0
+/multipart/ 1 11177 0 0
+/async-deleteUserBucketItem.php 7 2436 0 0
+/locations/Uzyn/MzY= 4 48944 0 0
+/group/Science/async-getNotificationList.php 2 21854 0 0
+/async-saveCommentRating.php 53 18444 0 1
+/trips/async-facebookSignIn.php 7 84688 0 0
+/locations/Konotop/async-getNotificationList.php 402 3784634 0 2
+/components/com_search/views/search/metadata.xml 1 68881 1 1
+/admin/async-saveNewsCategory.php 11 3828 0 0
+/wp-admin 3 28516 0 0
+/admin/blogDetail.php 23 73745 0 0
+/NO_PROFILE_PHOTO 109 1285084 0 2
+/locations/This-is-example-of-National-News.-Thank-you./async-getNotificationList.php 6 55128 0 0
+/test3.php 1 8881 0 0
+/ipn.php 18 7038 4 4
+/blogs/Origin-of-volleyball/Mw== 6 112444 0 0
+/places/MjM= 1 13741 0 0
+/news/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/Mzc= 2 27369 0 0
+/admin/regionList.php 7 14193 0 0
+/places/Music3/async-getNotificationList.php 7 75096 0 0
+/trips/NTUw 1 11360 0 0
+/async-uploadImage.php 36 15985 0 0
+/multipart/form-data 1 11178 0 0
+/trips/NO_PROFILE_PHOTO 10 120105 0 0
+/places/basketball/MjY= 1 69914 0 0
+/admin/guideListDetail.php 2 4650 0 0
+/trips/NDQ4 1 10913 0 0
+/admin/eyeList.php 3 6344 0 0
+/async-getNewsList.php 7 4477 0 0
+/locations/Ternopilska/async-getNotificationList.php 489 5040994 1 0
+/trips/NDQ2 3 32739 0 0
+/locations/Kiev/MTc= 15 136692 0 1
+/texteditor/scripts/common/webfonts.htm 1 3930 0 0
+/locations/Mariupol/async-getNotificationList.php 4 40159 0 0
+/trips/NTg0 2 22724 0 0
+/news/Chernihiv/MTg= 1 11248 0 0
+/trips/NTI3 3 33432 0 0
+/texteditor/scripts/common/webtext.htm 1 7239 0 0
+/async-getPlanTripLocationList.php 81 83988 0 0
+/async-getPageInfo.php 3 5166 0 0
+/news/News-Test-again/MzQw 1 12386 0 0
+/pois 3 26514 0 0
+/newsCategory/National-News/async-getNotificationList.php 135 1431588 0 0
+/trips/NTcy 2 22815 0 0
+/async-facebookSignIn.php 17 12585 0 0
+/locations/Berdyans/Mjk= 2 18534 0 0
+/locations/Fine-town-TERNOPIL/MzU4 3 42224 0 0
+/locations/phnom-Pen/Nw== 2 20002 0 0
+/group/Sports/Ng== 2 24576 0 0
+/admin/locationList.php 12 39987 0 0
+/trips/NDAx 4 43473 0 0
+/locations/Dnipropetrovs/async-getNotificationList.php 17 168293 0 0
+/async-searchLocation.php 73 55694 1 1
+/admin/locationDetail.php 10 28480 0 1
+/admin/ 34 14473 1 0
+/async-getPlacesDetailInfo.php 60 101865 0 0
+/locations/vinnyts/async-getNotificationList.php 17 172483 1 1
+/trips/NTky 1 11419 0 0
+/locations/Chernihiv/async-vkSignIn.php 1 12588 0 0
+/pages/apple-of-eye2 1 8451 0 0
+/admin/async-saveBlogCategory.php 1 348 0 0
+/group/Music/ 1 11178 0 0
+/locations/Korosten/MzI= 1 9825 0 0
+/async-signUp.php 4 1392 0 0
+/places/Music1/NQ== 4 42626 0 0
+/locations/Berdyans/async-getNotificationList.php 82 824046 0 0
+/places/universe/Mjg= 1 70781 0 0
+/places/Mjc= 2 24827 0 0
+/admin/NO_PROFILE_PHOTO 5 53430 0 0
+/admin/commentDetail.php 3 6923 0 0
+/group/Music/NQ== 48 580554 1 1
+/admin/eyeCategoryList.php 5 10828 0 0
+/locations/Korosten/async-getNotificationList.php 108 1133091 0 0
+/admin/async-getLocationInfoFromAddress.php 32 46018 0 1
+/admin/pageList.php 22 40067 0 0
+/locations/Kiev/async-getNotificationList.php 210 1925604 0 1
+/trips/NDg3 3 32736 0 0
+/group/Science/Nw== 3 33779 0 0
+/locations/Fastiv/async-vkSignIn.php 1 12586 0 0
+/locations/Brovary/async-getNotificationList.php 26 272691 0 0
+/async-getPlanTripDetailInfo.php 239 4433428 0 2
+/texteditor/assetmanager/jqueryFileTree/jqueryFileTree.php 20 5444 0 0
+/places/Nano/MzA= 2 22756 0 0
+/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/Mzc= 13 150083 0 0
+/locations/Malyn/MzU= 2 16753 0 0
+/locations/Uzyn/async-vkSignIn.php 3 37757 0 0
+/blogs/category/MQ== 20 346508 0 1
+/away.php 1 13695 1 0
+/locations/Ternopilska/MjU= 2 19346 0 0
+/small/ 1 13610 0 0
+/places/volleyball/Mjc= 1 70484 0 0
+/blogs/category/all 54 590966 2 5
+/async-deleteSavedPlanTrip.php 11 3828 0 0
+/googlec7e3587e93bced11.html 1 355 1 1
+/blogs/For-the-ball-used-in-the-sport,-see-Basketball-(ball).-For-other-uses,-see-Basketball-(disambiguation)./async-getNotificationList.php 76 705606 0 0
+/admin/setting.php 7 13629 0 0
+/news/This-is-example-of-National-News.-Thank-you./async-getNotificationList.php 549 5216596 0 0
+/news/Kiev/MTc= 11 135144 2 0
+/texteditor/assetmanager/asset.php 12 35882 0 0
+/news/Kiev/NO_PROFILE_PHOTO 2 22691 0 0
+/admin/notificationDetail.php 11 43571 0 0
+/admin/async-savePage.php 1 348 0 0
+/locations/Donetsk/MjY= 1 11166 0 0
+/async-getLocationInfoFromAddress.php 4 5146 0 0
+/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/async-getNotificationList.php 253 2630452 1 2
+/locations/Kovel/async-getNotificationList.php 11 109524 0 0
+/admin/newsList.php 22 50867 0 0
+/async-addUserBucket.php 10 4591 0 0
+/async-getBlogThumbList.php 540 11553154 0 13
+/admin/newsCategoryList.php 17 36013 0 0
+/locations/Vasylkiv/MzM= 2 23129 0 0
+/locations/Fastiv/MzA= 1 12438 0 0
+/undefined 1 11705 0 0
+/locations/Konotop/MzE= 30 408766 2 2
+/admin/async-saveBlog.php 7 2436 0 0
+/async-getUserBucketList.php 26 13771 0 0
+/locations/Uzyn/async-getNotificationList.php 46 471507 0 1
+/async-addLocationToUserBucket.php 3 1044 0 0
+/newsCategory/World-News/Mg== 7 137899 0 0
+/abc 1 8837 0 0
+/texteditor/scripts/common/weblink.htm 1 5117 0 0
+/blogs/%22Computer-technology%22-and-%22Computer-system%22-redirect-here./async-getNotificationList.php 234 2189012 0 1
+/locations/Donetsk/async-getNotificationList.php 221 2215111 1 1
+/admin/async-saveEye.php 3 1044 0 0
+/12 1 9305 0 0
+/sample-page/ 7 375320 6 6
+/Musi1 2 19940 0 0
+/admin/categoryDetail.php 1 2580 0 0
+/locations/Malyn/async-getNotificationList.php 7 69371 0 0
+/trips/NjIz 3 37686 0 0
+/async-getGuideTripLocation.php 79 288321 0 1
+/news/Mariupol/Mjc= 2 27276 0 0
+/admin/blogCategoryDetail.php 1 1625 0 0
+/admin/blogCategoryList.php 4 7788 0 0
+/admin/userDetail.php 4 10512 0 0
+/test.php 1 680 0 0
+/trips/NjI3 1 11800 0 0
+/news/SHADY-DELL/MTIx 3 31907 0 0
+/news/SHADY-DELL/async-getNotificationList.php 186 1847989 0 2
+/async-googleSignIn.php 4 3254 0 0
+/trips/MjMx 1 9216 0 0
+/async-saveUserInfo.php 1 617 0 0
+/async-signIn.php 36 57943 0 0
+/texteditor/assetmanager/uploadify/uploadify.swf 2 45788 0 0
+/news/OLD-TUCSON-STUDIOS/MTIw 10 111416 1 1
+/async-getUserInfo.php 45 30046 0 0
+/places/Nuclear/async-getNotificationList.php 1 10728 0 0
+/locations/Lviv-is-the-best/MzU3 1 14488 0 0
+/placesList 6 122940 1 0
+/trips/NjE0 3 35112 0 0
+/locations/Zhyomyrska/Mjg= 8 80632 0 0
+/async-addNewLocation.php 275 100400 0 0
+/blogs/%22Computer-technology%22-and-%22Computer-system%22-redirect-here./NA== 29 309935 0 0
+/async-getEyeListByCategory.php 74 97142 0 0
+/api/v1/pois 3 26526 0 0
+/admin/userList.php 37 82400 0 1
+/locations/Zhyomyrska/async-getNotificationList.php 132 1254700 0 1
+/admin/login.php 29 42756 0 0
+/locations/Chernihiv/MTg= 9 104623 0 0
+/cat/%D1%81%D0%BF%D0%BE%D1%80%D1%82/ 1 9235 0 0
+/pages/we-are-the-right-partner-for-brands-who-want-to-improve-the-user-experience-of-digital-products./Ng== 3 25118 0 0
+/admin/index.php 27 11475 0 0
+/item/%D1%80%D0%BE%D0%B7%D0%B5%D1%82%D0%BA%D0%B0/ 1 9667 0 0
+/trips/NDMz 1 10892 0 0
+/async-getLocationInfoByReference.php 233 400607 0 0
+/admin/async-saveEyeCategory.php 3 1044 0 0
+/blogs/Football-From-Wikipedia,-the-free-encyclopedia/MQ== 18 449824 1 3
+/trips/NDc= 4 35808 1 0
+/locations/Brovary/MTk= 3 32860 0 0
+/admin/async-saveNews.php 15 5220 0 0
+/test2.php 1 633 1 0
+/admin/guideList.php 4 7468 0 0
+/locations/kharkiv/MjI= 4 37692 0 0
+/admin/notificationList.php 17 60325 0 0
+/blogs/For-the-ball-used-in-the-sport,-see-Basketball-(ball).-For-other-uses,-see-Basketball-(disambiguation)./Mg== 16 225624 0 0
+/locations/ 4 41072 0 0
+/async-setLocationLike.php 426 148248 0 0
+/trips/async-getNotificationList.php 517 5564574 1 6
+/async-getEyeInfoByIds.php 32 60568 0 0
+/group/Science/NO_PROFILE_PHOTO 1 11339 0 0
+/editPlace/MzU2 3 41972 0 0
+/async-vkSignIn.php 6 4460 0 0
+/news/OLD-TUCSON-STUDIOS/async-getNotificationList.php 83 813022 0 0
+/places/tenis/async-getNotificationList.php 5 53499 0 0
+/async-saveLocationComment.php 11 6701 0 0
+/$ 4 39936 0 0
+/locations/Vasylkiv/async-getNotificationList.php 24 241738 0 0
+/[http://vkontakte.ru/js/api/openapi.js] 2 25302 0 0
+/group/Scientce/NO_PROFILE_PHOTO 1 11342 0 0
+/locations/kharkiv/async-getNotificationList.php 28 266449 0 0
+/places/Nuclear/Mjk= 1 11064 0 0
+/admin/newsDetail.php 20 68214 0 0
+/texteditor/assetmanager/server/upload.php 7 1782 0 0
+/async-getGroupDetailInfo.php 50 54478 0 0
+/news/For-many,-Thanksgiving-was-a-day-for-shopping/MzU1 1 14464 0 0
+/asdlj 1 8839 0 0
+/admin/async-saveRegion.php 3 1044 0 0
+/texteditor/scripts/common/websource.htm 2 8184 0 0
+/async-savePlace.php 8 3094 0 0
+/admin/commentList.php 6 17385 0 1
+/locations/Chernihiv/async-getNotificationList.php 1 10097 0 0
+/newsCategory/National-News/MQ== 13 200903 0 0
+/eye/Advanced-Sport-Game/null 2 23511 0 0
+/admin/pageDetail.php 3 6270 0 0
+/blogs/category/Mg== 12 156634 0 0
+/async-savePlanTripLocationList.php 470 163560 0 3
+/group/Sports/async-getNotificationList.php 7 75082 0 0
+/tips/NO_PROFILE_PHOTO 1 11706 0 0
+/blogs/ 2 63273 0 0
+/cat/%D1%82%D0%B5%D1%85%D0%BD%D0%B8%D0%BA%D0%B0/ 3 30463 0 0
+/admin/regionDetail.php 6 12378 0 1
+/news/This-is-example-of-National-News.-Thank-you./MTE5 46 489335 0 0
+/places/Music2/async-getNotificationList.php 198 2114346 0 0
+/locations/Chernihiv/NO_PROFILE_PHOTO 1 12587 0 0
+/blogs/Football-From-Wikipedia,-the-free-encyclopedia/async-getNotificationList.php 121 1133591 0 0
+/trips/NDQ1 2 21740 0 0
+/tips/NjQ0 1 11708 0 0
+/admin/async-logIn.php 27 9396 0 0
+/locations/Poltava/MjA= 1 11242 0 0
+/locations/Fastiv/async-getNotificationList.php 9 90457 0 0
+/texteditor/scripts/common/webimage.htm 3 32139 0 0
+/async-getBlogInfo.php 276 2090401 0 5
+END_SIDER

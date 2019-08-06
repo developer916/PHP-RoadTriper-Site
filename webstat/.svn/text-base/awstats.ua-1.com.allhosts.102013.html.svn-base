@@ -1,0 +1,120 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+<meta name="generator" content="AWStats 7.0 (build 1.971) from config file awstats.ua-1.com.conf (http://awstats.sourceforge.net)">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="description" content="Awstats - Advanced Web Statistics for ua-1.com (2013-10) - allhosts">
+<title>Статистика за ua-1.com (2013-10) - allhosts</title>
+<style type="text/css">
+body { font: 11px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; margin-top: 0; margin-bottom: 0; }
+.aws_bodyl  { }
+.aws_border { border-collapse: collapse; background-color: #CCCCDD; padding: 1px 1px 1px 1px; margin-top: 0px; margin-bottom: 0px; }
+.aws_title  { font: 13px verdana, arial, helvetica, sans-serif; font-weight: bold; background-color: #CCCCDD; text-align: center; margin-top: 0; margin-bottom: 0; padding: 1px 1px 1px 1px; color: #000000; }
+.aws_blank  { font: 13px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_data {
+	background-color: #FFFFFF;
+	border-top-width: 1px;   
+	border-left-width: 0px;  
+	border-right-width: 0px; 
+	border-bottom-width: 0px;
+}
+.aws_formfield { font: 13px verdana, arial, helvetica; }
+.aws_button {
+	font-family: arial,verdana,helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccd7e0;
+	background-image : url(/awstatsicons/other/button.gif);
+}
+th		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+th.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font-size: 13px; font-weight: bold; }
+td		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+td.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; padding: 0px;}
+td.awsm	{ border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; padding: 0px; }
+b { font-weight: bold; }
+a { font: 11px verdana, arial, helvetica, sans-serif; }
+a:link    { color: #0011BB; text-decoration: none; }
+a:visited { color: #0011BB; text-decoration: none; }
+a:hover   { color: #605040; text-decoration: underline; }
+.currentday { font-weight: bold; }
+</style>
+</head>
+
+<body style="margin-top: 0px">
+<a name="top"></a>
+
+
+
+<a name="menu">&nbsp;</a>
+<form name="FormDateFilter" action="/cgi-bin/awstats.pl?config=ua-1.com&amp;output=allhosts" style="padding: 0px 0px 0px 0px; margin-top: 0">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td>
+<table class="aws_data sortable" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td class="aws" valign="middle"><b>Статистика за:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 14px;">ua-1.com</span></td><td align="right" rowspan="3"><a href="http://awstats.sourceforge.net" target="awstatshome"><img src="/awstatsicons/other/awstats_logo6.png" border="0" alt='Awstats Web Site' title='Awstats Web Site' /></a></td></tr>
+<tr valign="middle"><td class="aws" valign="middle" width="150"><b>Последнее обновление:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 12px;">30 Ноя 2013 - 04:28</span></td></tr>
+<tr><td class="aws" valign="middle"><b>Отчетный период:</b></td><td class="aws" valign="middle"><span style="font-size: 14px;">Месяц Окт 2013</span></td></tr>
+</table>
+</td></tr></table>
+</form>
+
+<table>
+<tr><td class="aws"><a href="javascript:parent.window.close();">Закрыть окно</a></td></tr>
+</table>
+
+<a name="hosts">&nbsp;</a><br />
+<table class="aws_border sortable" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Хосты </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Всего : 0 Известные, 43 Неизвестный - 41 Уникальные посетители</th><th bgcolor="#4477DD" width="80">Страницы</th><th bgcolor="#66DDEE" width="80">Хиты</th><th class="datasize" bgcolor="#2EA495" width="80">Объем</th><th width="120">Последний визит</th></tr>
+<tr><td class="aws">180.94.70.78</td><td>2,669</td><td>6,168</td><td>9.79 МБ</td><td>31 Окт 2013 - 19:23</td></tr>
+<tr><td class="aws">175.100.72.131</td><td>1,583</td><td>4,945</td><td>17.72 МБ</td><td>31 Окт 2013 - 17:20</td></tr>
+<tr><td class="aws">180.94.70.66</td><td>265</td><td>450</td><td>1.19 МБ</td><td>31 Окт 2013 - 22:32</td></tr>
+<tr><td class="aws">180.94.69.187</td><td>241</td><td>821</td><td>10.27 МБ</td><td>31 Окт 2013 - 15:30</td></tr>
+<tr><td class="aws">180.94.70.77</td><td>63</td><td>191</td><td>1.18 МБ</td><td>24 Окт 2013 - 12:09</td></tr>
+<tr><td class="aws">119.63.193.194</td><td>18</td><td>18</td><td>642.27 КБ</td><td>31 Окт 2013 - 23:05</td></tr>
+<tr><td class="aws">119.63.193.131</td><td>16</td><td>16</td><td>549.44 КБ</td><td>31 Окт 2013 - 09:14</td></tr>
+<tr><td class="aws">119.63.193.132</td><td>15</td><td>15</td><td>502.59 КБ</td><td>31 Окт 2013 - 17:00</td></tr>
+<tr><td class="aws">195.34.206.101</td><td>15</td><td>62</td><td>1.07 МБ</td><td>25 Окт 2013 - 19:07</td></tr>
+<tr><td class="aws">74.125.181.4</td><td>15</td><td>43</td><td>699.21 КБ</td><td>30 Окт 2013 - 10:33</td></tr>
+<tr><td class="aws">119.63.193.130</td><td>15</td><td>15</td><td>516.25 КБ</td><td>31 Окт 2013 - 13:04</td></tr>
+<tr><td class="aws">119.63.193.196</td><td>12</td><td>12</td><td>403.99 КБ</td><td>31 Окт 2013 - 21:06</td></tr>
+<tr><td class="aws">119.63.193.195</td><td>11</td><td>11</td><td>368.07 КБ</td><td>31 Окт 2013 - 11:05</td></tr>
+<tr><td class="aws">66.249.82.38</td><td>11</td><td>108</td><td>2.81 МБ</td><td>31 Окт 2013 - 21:48</td></tr>
+<tr><td class="aws">66.249.84.54</td><td>10</td><td>58</td><td>402.11 КБ</td><td>31 Окт 2013 - 05:25</td></tr>
+<tr><td class="aws">54.217.56.154</td><td>8</td><td>136</td><td>3.69 МБ</td><td>30 Окт 2013 - 10:32</td></tr>
+<tr><td class="aws">46.51.148.66</td><td>6</td><td>102</td><td>2.77 МБ</td><td>30 Окт 2013 - 10:32</td></tr>
+<tr><td class="aws">54.205.63.21</td><td>5</td><td>5</td><td>15.12 КБ</td><td>31 Окт 2013 - 03:50</td></tr>
+<tr><td class="aws">54.237.52.88</td><td>5</td><td>5</td><td>15.12 КБ</td><td>30 Окт 2013 - 20:40</td></tr>
+<tr><td class="aws">54.234.79.224</td><td>5</td><td>5</td><td>15.12 КБ</td><td>30 Окт 2013 - 13:51</td></tr>
+<tr><td class="aws">54.237.14.21</td><td>5</td><td>5</td><td>15.12 КБ</td><td>31 Окт 2013 - 03:56</td></tr>
+<tr><td class="aws">66.249.82.183</td><td>4</td><td>68</td><td>1.85 МБ</td><td>30 Окт 2013 - 07:44</td></tr>
+<tr><td class="aws">74.112.131.246</td><td>4</td><td>4</td><td>91.19 КБ</td><td>31 Окт 2013 - 05:26</td></tr>
+<tr><td class="aws">178.151.216.88</td><td>4</td><td>4</td><td>132.86 КБ</td><td>28 Окт 2013 - 12:35</td></tr>
+<tr><td class="aws">65.52.244.38</td><td>2</td><td>2</td><td>14.36 КБ</td><td>31 Окт 2013 - 05:29</td></tr>
+<tr><td class="aws">66.249.83.38</td><td>2</td><td>2</td><td>13.88 КБ</td><td>30 Окт 2013 - 10:23</td></tr>
+<tr><td class="aws">184.169.203.101</td><td>2</td><td>2</td><td>742 Байты</td><td>29 Окт 2013 - 21:24</td></tr>
+<tr><td class="aws">74.125.17.193</td><td>2</td><td>14</td><td>509.26 КБ</td><td>30 Окт 2013 - 10:32</td></tr>
+<tr><td class="aws">50.18.102.132</td><td>2</td><td>2</td><td>742 Байты</td><td>31 Окт 2013 - 05:26</td></tr>
+<tr><td class="aws">184.72.189.87</td><td>1</td><td>1</td><td>371 Байты</td><td>29 Окт 2013 - 21:25</td></tr>
+<tr><td class="aws">184.73.60.58</td><td>1</td><td>1</td><td>371 Байты</td><td>31 Окт 2013 - 05:26</td></tr>
+<tr><td class="aws">61.146.178.184</td><td>1</td><td>1</td><td>5.58 КБ</td><td>27 Окт 2013 - 20:45</td></tr>
+<tr><td class="aws">188.186.30.22</td><td>1</td><td>1</td><td>39.03 КБ</td><td>31 Окт 2013 - 10:06</td></tr>
+<tr><td class="aws">72.14.199.38</td><td>1</td><td>1</td><td>415 Байты</td><td>29 Окт 2013 - 21:26</td></tr>
+<tr><td class="aws">78.62.166.115</td><td>1</td><td>31</td><td>915.33 КБ</td><td>27 Окт 2013 - 20:08</td></tr>
+<tr><td class="aws">54.224.7.77</td><td>1</td><td>2</td><td>13.90 КБ</td><td>29 Окт 2013 - 21:25</td></tr>
+<tr><td class="aws">54.234.187.42</td><td>1</td><td>2</td><td>136.48 КБ</td><td>31 Окт 2013 - 05:26</td></tr>
+<tr><td class="aws">72.66.115.10</td><td>1</td><td>1</td><td>371 Байты</td><td>30 Окт 2013 - 10:30</td></tr>
+<tr><td class="aws">66.249.93.149</td><td>1</td><td>26</td><td>834.20 КБ</td><td>30 Окт 2013 - 10:32</td></tr>
+<tr><td class="aws">157.55.252.30</td><td>1</td><td>1</td><td>6.94 КБ</td><td>29 Окт 2013 - 21:23</td></tr>
+<tr><td class="aws">204.236.209.13</td><td>1</td><td>2</td><td>136.48 КБ</td><td>29 Окт 2013 - 21:25</td></tr>
+<tr><td class="aws">61.135.189.137</td><td>&nbsp;</td><td>10</td><td>154.82 КБ</td><td>-</td></tr>
+<tr><td class="aws">74.125.19.47</td><td>&nbsp;</td><td>1</td><td>8.57 КБ</td><td>-</td></tr>
+</table></td></tr></table><br />
+
+<br /><br />
+<span dir="ltr" style="font: 11px verdana, arial, helvetica; color: #000000;"><b>Advanced Web Statistics 7.0 (build 1.971)</b> - <a href="http://awstats.sourceforge.net" target="awstatshome">Создано awstats</a></span><br />
+
+<br />
+</body>
+</html>

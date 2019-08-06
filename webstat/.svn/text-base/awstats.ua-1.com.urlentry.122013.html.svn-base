@@ -1,0 +1,112 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="ru">
+<head>
+<meta name="generator" content="AWStats 7.0 (build 1.971) from config file awstats.ua-1.com.conf (http://awstats.sourceforge.net)">
+<meta name="robots" content="noindex,nofollow">
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+<meta http-equiv="description" content="Awstats - Advanced Web Statistics for ua-1.com (2013-12) - urlentry">
+<title>Статистика за ua-1.com (2013-12) - urlentry</title>
+<style type="text/css">
+body { font: 11px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; margin-top: 0; margin-bottom: 0; }
+.aws_bodyl  { }
+.aws_border { border-collapse: collapse; background-color: #CCCCDD; padding: 1px 1px 1px 1px; margin-top: 0px; margin-bottom: 0px; }
+.aws_title  { font: 13px verdana, arial, helvetica, sans-serif; font-weight: bold; background-color: #CCCCDD; text-align: center; margin-top: 0; margin-bottom: 0; padding: 1px 1px 1px 1px; color: #000000; }
+.aws_blank  { font: 13px verdana, arial, helvetica, sans-serif; background-color: #FFFFFF; text-align: center; margin-bottom: 0; padding: 1px 1px 1px 1px; }
+.aws_data {
+	background-color: #FFFFFF;
+	border-top-width: 1px;   
+	border-left-width: 0px;  
+	border-right-width: 0px; 
+	border-bottom-width: 0px;
+}
+.aws_formfield { font: 13px verdana, arial, helvetica; }
+.aws_button {
+	font-family: arial,verdana,helvetica, sans-serif;
+	font-size: 12px;
+	border: 1px solid #ccd7e0;
+	background-image : url(/awstatsicons/other/button.gif);
+}
+th		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+th.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; padding: 1px 2px 1px 1px; font-size: 13px; font-weight: bold; }
+td		{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:center; color: #000000; }
+td.aws	{ border-color: #ECECEC; border-left-width: 0px; border-right-width: 1px; border-top-width: 0px; border-bottom-width: 1px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; padding: 0px;}
+td.awsm	{ border-left-width: 0px; border-right-width: 0px; border-top-width: 0px; border-bottom-width: 0px; font: 11px verdana, arial, helvetica, sans-serif; text-align:left; color: #000000; padding: 0px; }
+b { font-weight: bold; }
+a { font: 11px verdana, arial, helvetica, sans-serif; }
+a:link    { color: #0011BB; text-decoration: none; }
+a:visited { color: #0011BB; text-decoration: none; }
+a:hover   { color: #605040; text-decoration: underline; }
+.currentday { font-weight: bold; }
+</style>
+</head>
+
+<body style="margin-top: 0px">
+<a name="top"></a>
+
+
+
+<a name="menu">&nbsp;</a>
+<form name="FormDateFilter" action="/cgi-bin/awstats.pl?config=ua-1.com&amp;output=urlentry" style="padding: 0px 0px 0px 0px; margin-top: 0">
+<table class="aws_border" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td>
+<table class="aws_data sortable" border="0" cellpadding="1" cellspacing="0" width="100%">
+<tr><td class="aws" valign="middle"><b>Статистика за:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 14px;">ua-1.com</span></td><td align="right" rowspan="3"><a href="http://awstats.sourceforge.net" target="awstatshome"><img src="/awstatsicons/other/awstats_logo6.png" border="0" alt='Awstats Web Site' title='Awstats Web Site' /></a></td></tr>
+<tr valign="middle"><td class="aws" valign="middle" width="150"><b>Последнее обновление:</b>&nbsp;</td><td class="aws" valign="middle"><span style="font-size: 12px;">31 Янв 2014 - 04:28</span></td></tr>
+<tr><td class="aws" valign="middle"><b>Отчетный период:</b></td><td class="aws" valign="middle"><span style="font-size: 14px;">Месяц Дек 2013</span></td></tr>
+</table>
+</td></tr></table>
+</form>
+
+<table>
+<tr><td class="aws"><a href="javascript:parent.window.close();">Закрыть окно</a></td></tr>
+</table>
+
+<a name="urls">&nbsp;</a><br />
+<table class="aws_border sortable" border="0" cellpadding="2" cellspacing="0" width="100%">
+<tr><td class="aws_title" width="70%">Вхождение </td><td class="aws_blank">&nbsp;</td></tr>
+<tr><td colspan="2">
+<table class="aws_data" border="1" cellpadding="2" cellspacing="0" width="100%">
+<tr bgcolor="#ECECEC"><th>Всего: 34 Различные url</th><th bgcolor="#4477DD" width="80">Просмотров</th><th class="datasize" bgcolor="#2EA495" width="80">Средний размер</th><th bgcolor="#CEC2E8" width="80">Вхождение</th><th bgcolor="#C1B2E2" width="80">Выход</th><th>&nbsp;</th></tr>
+<tr><td class="aws"><a href="http://ua-1.com/" target="url">/</a></td><td>1,449</td><td>45.48 КБ</td><td>833</td><td>653</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="10" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="125" height="4" /><br /><img src="/awstatsicons/other/he.png" width="6" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="5" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-getNotificationList.php" target="url">/async-getNotificationList.php</a></td><td>40,391</td><td>359 Байты</td><td>56</td><td>158</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="261" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="2" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/sample-page/" target="url">/sample-page/</a></td><td>14</td><td>68.83 КБ</td><td>14</td><td>12</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="189" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/sample-page/+++++++++++++++++++++++++++++++++++++++++++++++++Result:+%EE%F8%E8%E1%EA%E0:+%22blog+title+-+category+name+-+how+days+ago%22" target="url">/sample-page/+++++++++++++++++++++++++++++++++++++++++++++++++Re...</a></td><td>10</td><td>90.67 КБ</td><td>10</td><td>7</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="249" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/trips/MTMwMw==" target="url">/trips/MTMwMw==</a></td><td>34</td><td>14.73 КБ</td><td>6</td><td>2</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="41" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/category/novyny" target="url">/category/novyny</a></td><td>11</td><td>13.70 КБ</td><td>6</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="38" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/places/Music1/MjI=" target="url">/places/Music1/MjI=</a></td><td>9</td><td>24.10 КБ</td><td>4</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="66" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/ipn.php" target="url">/ipn.php</a></td><td>13</td><td>391 Байты</td><td>4</td><td>4</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="2" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-loadLanguage.php" target="url">/async-loadLanguage.php</a></td><td>543</td><td>7.49 КБ</td><td>4</td><td>14</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="4" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="21" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/trips/MTMwMQ==" target="url">/trips/MTMwMQ==</a></td><td>8</td><td>14.39 КБ</td><td>3</td><td>2</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="40" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/wp-login.php" target="url">/wp-login.php</a></td><td>4</td><td>50.37 КБ</td><td>3</td><td>4</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="138" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/sample-page/+++++++++++++++++++++++++++++++++++++++++++++++++Result:+%EE%F8%E8%E1%EA%E0:+%22&times" target="url">/sample-page/+++++++++++++++++++++++++++++++++++++++++++++++++Re...</a></td><td>3</td><td>87.73 КБ</td><td>3</td><td>3</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="241" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/admin/" target="url">/admin/</a></td><td>30</td><td>422 Байты</td><td>3</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="2" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/novyny/onlajn-transljacija-mitynhu-na-majdani-kyjiv-majdan2.html" target="url">/novyny/onlajn-transljacija-mitynhu-na-majdani-kyjiv-majdan2.htm...</a></td><td>2</td><td>13.49 КБ</td><td>2</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="37" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/blogs/category/Mg==" target="url">/blogs/category/Mg==</a></td><td>4</td><td>54.92 КБ</td><td>2</td><td>2</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="151" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-getLocationInfo.php" target="url">/async-getLocationInfo.php</a></td><td>2,703</td><td>3.00 КБ</td><td>2</td><td>20</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="18" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="9" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/admin/guideBucketLocation.php" target="url">/admin/guideBucketLocation.php</a></td><td>5</td><td>1.97 КБ</td><td>2</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="6" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-getLocationInfoByIds.php" target="url">/async-getLocationInfoByIds.php</a></td><td>671</td><td>8.77 КБ</td><td>1</td><td>3</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="5" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="25" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/trips/MTIzNQ==" target="url">/trips/MTIzNQ==</a></td><td>1</td><td>14.44 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="40" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/googlec7e3587e93bced11.html" target="url">/googlec7e3587e93bced11.html</a></td><td>1</td><td>355 Байты</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="2" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/user" target="url">/user</a></td><td>1</td><td>94.98 КБ</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="260" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/locations/kak-ya-pobyval-na-lune/Mzc=" target="url">/locations/kak-ya-pobyval-na-lune/Mzc=</a></td><td>17</td><td>16.23 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="45" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/locations/Kak-ya-pobival-na-Lune/Mzc=" target="url">/locations/Kak-ya-pobival-na-Lune/Mzc=</a></td><td>9</td><td>15.72 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="44" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/news/For-many,-Thanksgiving-was-a-day-for-shopping/MzU1" target="url">/news/For-many,-Thanksgiving-was-a-day-for-shopping/MzU1</a></td><td>1</td><td>14.84 КБ</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="41" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-getCategoryLocationInfo.php" target="url">/async-getCategoryLocationInfo.php</a></td><td>1,789</td><td>2.75 КБ</td><td>1</td><td>2</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="12" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="8" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/novyny/janukovych-ne-budem-hovoryt-o-plohom-luchshe-sdelaem.html" target="url">/novyny/janukovych-ne-budem-hovoryt-o-plohom-luchshe-sdelaem.htm...</a></td><td>2</td><td>14.38 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="40" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/blogs/" target="url">/blogs/</a></td><td>2</td><td>52.06 КБ</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="143" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/blogs/For-the-ball-used-in-the-sport,-see-Basketball-(ball).-For-other-uses,-see-Basketball-(disambiguation)./Mg==" target="url">/blogs/For-the-ball-used-in-the-sport,-see-Basketball-(ball).-Fo...</a></td><td>12</td><td>15.19 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="42" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/locations/COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL/MzY4" target="url">/locations/COOOOOOOOOOOOOOOOOOOOOOOOOOOOOOL/MzY4</a></td><td>16</td><td>14.47 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="40" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0%B2%D0%B0%D0%BB-%D0%BD%D0%B0-%D0%9B%D1%83%D0%BD%D0%B5/Mzc=" target="url">/locations/%D0%9A%D0%B0%D0%BA-%D1%8F-%D0%BF%D0%BE%D0%B1%D1%8B%D0...</a></td><td>9</td><td>14.77 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="41" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/async-uploadImage.php" target="url">/async-uploadImage.php</a></td><td>23</td><td>445 Байты</td><td>1</td><td>2</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="2" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/administrator" target="url">/administrator</a></td><td>1</td><td>94.98 КБ</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="261" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/trips/async-loadLanguage.php" target="url">/trips/async-loadLanguage.php</a></td><td>47</td><td>14.54 КБ</td><td>1</td><td>1</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="40" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="2" height="4" /></td></tr>
+<tr><td class="aws"><a href="http://ua-1.com/locations/Lviv-is-the-best/MzU3" target="url">/locations/Lviv-is-the-best/MzU3</a></td><td>20</td><td>15.62 КБ</td><td>1</td><td>&nbsp;</td><td class="aws"><img src="/awstatsicons/other/hp.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hk.png" width="43" height="4" /><br /><img src="/awstatsicons/other/he.png" width="2" height="4" /><br /><img src="/awstatsicons/other/hx.png" width="1" height="4" /></td></tr>
+<tr><td class="aws"><span style="color: #666688">Остальные</span></td><td>3,688</td><td>4.87 КБ</td><td>&nbsp;</td><td>77</td><td>&nbsp;</td></tr>
+</table></td></tr></table><br />
+
+<br /><br />
+<span dir="ltr" style="font: 11px verdana, arial, helvetica; color: #000000;"><b>Advanced Web Statistics 7.0 (build 1.971)</b> - <a href="http://awstats.sourceforge.net" target="awstatshome">Создано awstats</a></span><br />
+
+<br />
+</body>
+</html>

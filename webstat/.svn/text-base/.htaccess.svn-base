@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "/www/ua-1.com/webstat"
+AuthUserFile /var/www/santana/data/etc/65541322.passwd
+DirectoryIndex index.html
+<Limit GET POST>
+	require valid-user
+</Limit>

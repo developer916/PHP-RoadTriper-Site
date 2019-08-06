@@ -1,0 +1,7 @@
+User-agent: *
+Disallow: /editPlace/
+Disallow: /myPlaces
+Disallow: /profile
+Disallow: /locations/result/
+Disallow: /external.php?url=
+Disallow: /eyeCategory/result/

@@ -1,0 +1,31 @@
+DROP FUNCTION IF EXISTS distance;
+DELIMITER $$
+CREATE FUNCTION distance(lat1 FLOAT, lon1 FLOAT, lat2 FLOAT, lon2 FLOAT)
+  RETURNS TEXT
+BEGIN
+  DECLARE rLat1 FLOAT;
+  DECLARE rLon1 FLOAT;
+  DECLARE rLat2 FLOAT;
+  DECLARE rLon2 FLOAT;
+  DECLARE result FLOAT;
+  
+  IF lat1 > lat2 THEN
+    SET rLat1 = lat1;
+    SET rLat2 = lat2;
+  ELSE
+    SET rLat2 = lat1;
+    SET rLat1 = lat2;
+  END IF;
+
+  IF lon1 > lon2 THEN
+    SET rLon1 = lon1;
+    SET rLon2 = lon2;
+  ELSE
+    SET rLon2 = lon1;
+    SET rLon1 = lon2;
+  END IF;  
+  SET result = POWER((rLat1 - rLat2), 2) + POWER((rLon1 - rLon2), 2);
+  RETURN result;
+END;
+$$
+DELIMITER ;

@@ -1,0 +1,58 @@
+[2014/09/02 10:06:46] SELECT r1.*, (r1.ua_like_count - r1.ua_unlike_count) AS result 
+						          FROM (
+    						        select t1.*, ifnull(t2.ua_like, 0) ua_like_count, ifnull(t2.ua_unlike, 0) ua_unlike_count, ifnull( t3.ua_like, 0) ua_liked
+    								  from
+    									(
+    									select t1.*, t2.ua_photo, t2.ua_username
+    									  from ua_location_comment t1, ua_user t2
+    									 where t1.ua_location = 550
+    									   and t1.ua_user = t2.ua_user
+    									   and if(t1.ua_comment != '', true, false)
+    									   and t1.ua_created_time IN ( SELECT MAX(ua_created_time) FROM ua_location_comment WHERE ua_comment_rate > 0 GROUP BY ua_user ) 
+    									   group by t1.ua_user
+    									) t1 left join
+    									(
+    									select sum(if(ua_like = 1, 1, 0)) ua_like, sum(if(ua_like = -1, 1, 0)) ua_unlike, ua_comment
+    									  from ua_user_comment_like
+    									 where ua_comment_type = 1
+    									group by ua_comment
+    									) t2 on t1.ua_location_comment = t2.ua_comment
+    									left join
+    									(
+    								   select ua_like, ua_comment
+    									 from ua_user_comment_like
+    								 	where ua_comment_type = 1
+    									  and ua_user = '2'
+    									) t3
+    									on t1.ua_location_comment = t3.ua_comment
+    								order by t1.ua_created_time desc
+								)r1 ORDER BY result DESC LIMIT 1
+[2014/09/02 10:32:04] SELECT r1.*, (r1.ua_like_count - r1.ua_unlike_count) AS result 
+						          FROM (
+    						        select t1.*, ifnull(t2.ua_like, 0) ua_like_count, ifnull(t2.ua_unlike, 0) ua_unlike_count, ifnull( t3.ua_like, 0) ua_liked
+    								  from
+    									(
+    									select t1.*, t2.ua_photo, t2.ua_username
+    									  from ua_location_comment t1, ua_user t2
+    									 where t1.ua_location = 552
+    									   and t1.ua_user = t2.ua_user
+    									   and if(t1.ua_comment != '', true, false)
+    									   and t1.ua_created_time IN ( SELECT MAX(ua_created_time) FROM ua_location_comment WHERE ua_comment_rate > 0 GROUP BY ua_user ) 
+    									   group by t1.ua_user
+    									) t1 left join
+    									(
+    									select sum(if(ua_like = 1, 1, 0)) ua_like, sum(if(ua_like = -1, 1, 0)) ua_unlike, ua_comment
+    									  from ua_user_comment_like
+    									 where ua_comment_type = 1
+    									group by ua_comment
+    									) t2 on t1.ua_location_comment = t2.ua_comment
+    									left join
+    									(
+    								   select ua_like, ua_comment
+    									 from ua_user_comment_like
+    								 	where ua_comment_type = 1
+    									  and ua_user = '2'
+    									) t3
+    									on t1.ua_location_comment = t3.ua_comment
+    								order by t1.ua_created_time desc
+								)r1 ORDER BY result DESC LIMIT 1
